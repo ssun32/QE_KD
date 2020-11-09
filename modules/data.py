@@ -20,9 +20,32 @@ def collate_fn(batches, tokenizer):
                            max_length=128, 
                            padding=True,
                            pad_to_max_length=False, 
+                           return_special_tokens_mask=True,
                            return_tensors = "pt")]
 
-    return tokenized, batch_z_scores, batch_da_scores
+    input_ids = tokenized[0]["input_ids"]
+    meta = {"text":[], 
+            "src_mask":torch.zeros(input_ids.size()),
+            "tgt_mask":torch.zeros(input_ids.size())}
+    for i, t in enumerate(input_ids):
+        meta["text"].append(tokenizer.convert_ids_to_tokens(t.tolist()))
+
+        end_token = 0
+        for j, id in enumerate(t):
+            #change to tgt if encounter the first </s>
+            if id == 2:
+                end_token += 1
+
+            if end_token == 3:
+                meta["tgt_mask"][i, j] = 1
+                break
+            elif end_token == 2:
+                meta["tgt_mask"][i, j] = 1
+            else:
+                meta["src_mask"][i, j] = 1
+
+
+    return tokenized, batch_z_scores, batch_da_scores, meta
 
 class QEDataset(Dataset):
     def __init__(self, filepath):

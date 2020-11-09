@@ -7,6 +7,7 @@ import logging
 import numpy as np
 from modules.data import QEDataset, collate_fn
 from modules.mini_model import QEMini
+from modules.mini_model_linformer import QEMiniLinformer
 from modules.model import QETransformer
 from modules.trainer import QETrainer
 from torch.utils.data import DataLoader
@@ -57,8 +58,14 @@ def get_trainer(config):
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    model = QEMini(250002)
+    model = QEMiniLinformer(config=config)
     model.train()
+
+    #for name, param in model.named_parameters():
+    #    if "token_mask" not in name:
+    #        param.requires_grad = False
+    #    print(name, param.shape, param.requires_grad)
+
 
     train_file = config["train"][0]["tsv_file"]
     train_dataset = QEDataset(train_file)
@@ -76,6 +83,7 @@ def get_trainer(config):
                              batch_size=batch_size, 
                              collate_fn=partial(collate_fn, tokenizer=tokenizer), 
                              shuffle=False)
+
     trainer = QETrainer(model, 
                         config["output_dir"], 
                         train_dataloader, 

@@ -1,4 +1,5 @@
 import os, sys
+import json
 import torch
 import numpy as np
 from collections import defaultdict
@@ -68,12 +69,83 @@ class QETrainer(object):
     def eval(self):
         self.model.eval()
         all_predicted_scores, all_actual_scores = [], []
+
+        l1loss = 0
+
+        features = defaultdict(float)
+
         with torch.no_grad():
-            for batch, z_scores, da_scores in tqdm(self.dev_dataloader):
-                predicted_scores,_ = self.forward(batch)
+            for batch, z_scores, da_scores, meta in tqdm(self.dev_dataloader):
+
+                att_mask = batch[0]["attention_mask"].to(self.gpu)
+                src_mask = meta["src_mask"].to(self.gpu)
+                tgt_mask = meta["tgt_mask"].to(self.gpu)
+
+                predicted_scores, transformer_outputs = self.forward(batch)
                 predicted_scores[torch.isnan(predicted_scores)] = 0
                 all_predicted_scores += predicted_scores.flatten().tolist()
                 all_actual_scores += z_scores
+
+                """
+                for l in range(24):
+                    for h in range(16):
+
+                        k = (l, h)
+                        #get attention from layer l and head h
+                        att = transformer_outputs["attentions"][l][:,h,:]
+
+                        #avg diagonal prob
+                        avg_prob_diag = ((att.diagonal(dim1=-2, dim2=-1) * att_mask).sum(dim=-1)) / att_mask.sum(dim=-1)
+                        offset=-1
+                        avg_prob_diag_lower1 = ((att.diagonal(offset=offset, dim1=-2, dim2=-1) * att_mask[:, -offset:]).sum(dim=-1)) / att_mask[:, -offset:].sum(dim=-1)
+                        offset=1
+                        avg_prob_diag_upper1 = ((att.diagonal(offset=offset, dim1=-2, dim2=-1) * att_mask[:, :-offset]).sum(dim=-1)) / att_mask[:, :-offset].sum(dim=-1)
+                        avg_prob = ((att*att_mask.unsqueeze(-1)).sum(dim=-2)) / att_mask.sum(dim=-1, keepdim=True)
+                        avg_prob_entropy = ((-avg_prob*(avg_prob+1e-9).log())*att_mask).sum(dim=-1)
+
+                        #entropy
+                        entropy = (-att*(att+1e-9).log()*att_mask.unsqueeze(1)).sum(dim=-1)
+                        avg_entropy = ((entropy*att_mask).sum(dim=-1))/att_mask.sum(dim=-1)
+
+                        #(src, src)
+                        src_src_att = ((att * src_mask.unsqueeze(1)).sum(dim=-1) * src_mask).sum(dim=-1)/src_mask.sum(dim=-1)
+                        src_tgt_att = ((att * tgt_mask.unsqueeze(1)).sum(dim=-1) * src_mask).sum(dim=-1)/src_mask.sum(dim=-1)
+                        tgt_src_att = ((att * src_mask.unsqueeze(1)).sum(dim=-1) * tgt_mask).sum(dim=-1)/tgt_mask.sum(dim=-1)
+                        tgt_tgt_att = ((att * tgt_mask.unsqueeze(1)).sum(dim=-1) * tgt_mask).sum(dim=-1)/tgt_mask.sum(dim=-1)
+
+                        src_prob = src_src_att/src_tgt_att
+                        tgt_prob = tgt_tgt_att/tgt_src_att
+
+                        features[(l, h, "avg_prob_diag")] += avg_prob_diag.sum().item()
+                        features[(l, h, "avg_prob_diag_lower1")] += avg_prob_diag_lower1.sum().item()
+                        features[(l, h, "avg_prob_diag_upper1")] += avg_prob_diag_upper1.sum().item()
+                        features[(l, h, "avg_prob_entropy")] += avg_prob_entropy.sum().item()
+                        features[(l, h, "avg_entropy")] += avg_entropy.sum().item()
+                        features[(l, h, "src_prob")] += src_prob.sum().item()
+                        features[(l, h, "tgt_prob")] += tgt_prob.sum().item()
+
+                if False and "token_masks" in transformer_outputs:
+                    l1loss += (1/(24*128))*torch.stack([torch.norm(token_mask.squeeze(), p=1, dim=-1).mean() for token_mask in transformer_outputs["token_masks"]]).sum().item() * predicted_scores.shape[0]
+
+        dout = defaultdict(list)
+        for l in range(24):
+            for h in range(16):
+                print(l, h)
+
+                print("Avg_prob_diag %.4f"%(features[l, h, "avg_prob_diag"]/1000))
+                print("Avg_prob_diag_lower1 %.4f"%(features[l, h, "avg_prob_diag_lower1"]/1000))
+                print("Avg_prob_diag_upper1 %.4f"%(features[l, h, "avg_prob_diag_upper1"]/1000))
+                print("Avg_prob_entropy %.4f"%(features[l, h, "avg_prob_entropy"]/1000))
+                print("Avg_entropy %.4f"%(features[l, h, "avg_entropy"]/1000))
+                print("src_probs %.4f"%(features[l, h, "src_prob"]/1000))
+                print("tgt_probs %.4f"%(features[l, h, "tgt_prob"]/1000))
+
+        sys.exit(0)
+        """
+
+
+        #with open("prunelist.json", "w") as fout:
+        #    print(json.dumps(dout), file=fout)
 
         all_predicted_scores = np.array(all_predicted_scores)
         all_actual_scores = np.array(all_actual_scores)
@@ -81,15 +153,16 @@ class QETrainer(object):
         pearson_correlation = pearsonr(all_predicted_scores, all_actual_scores)[0]
         mse = np.square(np.subtract(all_predicted_scores, all_actual_scores)).mean()
         self.model.train()
-        return pearson_correlation, mse
+        return pearson_correlation, mse, l1loss / all_predicted_scores.shape[0]
 
     #main train loop
     def train(self):
         for epoch in range(self.cur_epoch, self.epochs):
             print("Epoch ", epoch)
             total_loss = 0
+            total_l1loss = 0
             total_batches = 0
-            for batch, z_scores, da_scores in tqdm(self.train_dataloader):
+            for batch, z_scores, da_scores, meta in tqdm(self.train_dataloader):
                 z_scores = torch.tensor(z_scores).to(self.gpu)
                 predicted_scores, transformer_outputs = self.forward(batch)
 
@@ -99,6 +172,11 @@ class QETrainer(object):
                     continue
 
                 loss = torch.nn.MSELoss()(predicted_scores.squeeze(), z_scores)
+
+                if "token_masks" in transformer_outputs:
+                    l1loss = (1/(24*128))*torch.stack([torch.norm(token_mask.squeeze(), p=1, dim=-1).mean() for token_mask in transformer_outputs["token_masks"]]).sum()
+
+                #loss += l1loss
 
                 cur_batch_size = predicted_scores.size(0)
                 total_batches += cur_batch_size
@@ -112,10 +190,10 @@ class QETrainer(object):
                 log = "Epoch %s Global steps: %s Train loss: %.4f\n" %(epoch, self.global_steps, avg_loss)
 
                 self.global_steps += 1
-                if self.global_steps % self.eval_interval == 0:
+                if (self.global_steps-1) % self.eval_interval == 0:
                    
-                    pearson_correlation, mse = self.eval()
-                    log += "Dev loss: %.4f r:%.4f\n" % (mse, pearson_correlation)
+                    pearson_correlation, mse, l1loss = self.eval()
+                    log += "Dev loss: %.4f l1loss: %.15f, r:%.4f\n" % (mse, l1loss, pearson_correlation)
                     if pearson_correlation > self.best_eval_result:
                         self.best_eval_result = pearson_correlation
                         torch.save(self.model.module.state_dict(), self.best_model_path)

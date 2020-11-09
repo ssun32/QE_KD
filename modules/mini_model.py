@@ -54,7 +54,6 @@ class QEMini(nn.Module):
         #cls_token = (att_output * att_mask.unsqueeze(-1)).sum(dim=1) / att_mask.sum(dim=-1, keepdim=True)
         return self.mlp(cls_token).squeeze(), transformer_outputs
 
-
 class ScaledDotProductAttention(nn.Module):
 
     def __init__(self, temperature, attn_dropout=0.1):

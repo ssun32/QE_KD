@@ -23,10 +23,10 @@ class MiniEvaluator(object):
         self.model = self.model.to(self.gpu)
         self.model.eval()
 
-    def forward(self, batch):
+    def forward(self, batch, prune_dict={}):
         batch = [{k:v.to(self.gpu) for k,v in b.items()} for b in batch]
 
-        predicted_scores, transformer_outputs = self.model(batch)
+        predicted_scores, transformer_outputs = self.model(batch, prune_dict=prune_dict)
 
         if torch.isnan(predicted_scores).any():
             return None, None
@@ -34,12 +34,12 @@ class MiniEvaluator(object):
             return predicted_scores, transformer_outputs
 
     #evaluate on dev dataset, return pearson_correlation and mse
-    def eval(self, test_dataloader):
+    def eval(self, test_dataloader, prune_dict={}):
 
         all_predicted_scores, all_actual_scores = [], []
         with torch.no_grad():
-            for batch, z_scores, da_scores in tqdm(test_dataloader):
-                predicted_scores,_ = self.forward(batch)
+            for batch, z_scores, da_scores, meta in tqdm(test_dataloader):
+                predicted_scores,_ = self.forward(batch, prune_dict)
                 predicted_scores[torch.isnan(predicted_scores)] = 0
                 all_predicted_scores += predicted_scores.flatten().tolist()
                 all_actual_scores += z_scores

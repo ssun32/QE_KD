@@ -76,7 +76,7 @@ def make_config(train,
                   "checkpoint_path": "configs/models/%s/run%s/best.pt"%(name, run),
                   "checkpoint_prefix": checkpoint_prefix,
                   "accum_grad": 1,
-                  "eval_interval": 40 * len(ids[train[0]]),
+                  "eval_interval": 20 * len(ids[train[0]]),
                   "loss_fn": "mse",
                   "train":[],
                   "dev":[],
@@ -96,15 +96,10 @@ def make_config(train,
                     config[split_name].append({"id": id, "tsv_file":tsv_file})
             print(json.dumps(config, indent=4), file=fout)
 
-for l in [1,6,12,18,24]:
-    #single languages
-    all_lds = ["_".join(ld) for ld in ids["all"]]
-    for ld in all_lds:
-        make_config([ld], [ld], [ld], exp="models_drop_top%s"%l, use_layers = [l], name=ld, n_runs=5, batch_size_per_gpu=8)
-
-    #train on all LD, test on single languages
-    make_config(["all"], ["all"], ["all"], exp="models_drop_top%s"%l, use_layers = [l], name="all", n_runs=5, batch_size_per_gpu=16)
-
+#single languages
+all_lds = ["_".join(ld) for ld in ids["all"]]
+for ld in all_lds + ["all"]:
+    make_config([ld], [ld], [ld], exp="models_linformer", n_layers = 24, name=ld, n_runs=5, batch_size_per_gpu=8, learning_rate=1e-6)
 
 #kd cfg
 #drop top
