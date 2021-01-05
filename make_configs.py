@@ -6,16 +6,6 @@ batch_size_per_gpu=8
  
 ids = {
  "all":[("en","de"),("en","zh"),("ro","en"),("et","en"),("si","en"),("ne","en"), ("ru", "en")],
- "sharing_src":[("en","de"), ("en","zh")],
- "sharing_tgt":[("ro","en"),("et","en"),("si","en"),("ne","en"), ("ru", "en")],
- "random2":[("en","zh"),("ro","en")],
- "0shot_no_ende":[("en","zh"),("ro","en"),("et","en"),("si","en"),("ne","en"), ("ru","en")],
- "0shot_no_enzh":[("en","de"),("ro","en"),("et","en"),("si","en"),("ne","en"), ("ru","en")],
- "0shot_no_roen":[("en","de"),("en","zh"),("et","en"),("si","en"),("ne","en"), ("ru","en")],
- "0shot_no_eten":[("en","de"),("en","zh"),("ro","en"),("si","en"),("ne","en"), ("ru","en")],
- "0shot_no_sien":[("en","de"),("en","zh"),("ro","en"),("et","en"),("ne","en"), ("ru","en")],
- "0shot_no_neen":[("en","de"),("en","zh"),("ro","en"),("et","en"),("si","en"), ("ru","en")],
- "0shot_no_ruen":[("en","de"),("en","zh"),("ro","en"),("et","en"),("si","en"), ("ne","en")],
  "en_de":[("en","de")],
  "en_zh":[("en","zh")],
  "ro_en":[("ro","en")],
@@ -42,12 +32,14 @@ def make_config(train,
                 test, 
                 exp="H1",
                 use_layers=None,
-                n_layers=13,
-                train_layer = 1,
-                copy_embeddings=False,
+                n_layers=24,
+                n_heads=16,
+                hidden_size=1024,
+                intermediate_size=4096,
+                max_layer = 23,
+                train_layer=1,
                 encoder_copy_mapping=None,
                 encoder_sup_mapping=None,
-                copy_mlp=False,
                 use_transferset=False,
                 cfg_file_name="config.json",
                 checkpoint_prefix="kdmini_",
@@ -55,34 +47,41 @@ def make_config(train,
                 n_runs=1, 
                 epochs=100,
                 learning_rate=1e-4,
+                eval_interval=20,
                 batch_size_per_gpu=24,
+                model_name="xlm-roberta-large",
+                task="regression",
+                dataset = "qe",
                 checkpoint_path=None,
-                sample_dict={}):
+                config_prefix="new_configs2"):
 
     for run in range(n_runs):
         config = {
-                  "model_name":"xlm-roberta-large",
+                  "model_name":model_name,
+                  "task":task,
+                  "dataset":dataset,
                   "epochs":epochs,
                   "use_layers": use_layers,
                   "n_layers": n_layers,
+                  "n_heads": n_heads,
+                  "hidden_size": hidden_size,
+                  "intermediate_size": intermediate_size,
+                  "max_layer": max_layer,
                   "train_layer":train_layer,
-                  "copy_embeddings":copy_embeddings,
                   "encoder_copy_mapping":encoder_copy_mapping,
                   "encoder_sup_mapping":encoder_sup_mapping,
-                  "copy_mlp":copy_mlp,
                   "use_transferset":use_transferset,
                   "batch_size_per_gpu": batch_size_per_gpu,
                   "learning_rate":learning_rate,
-                  "checkpoint_path": "configs/models/%s/run%s/best.pt"%(name, run),
+                  #"checkpoint_path": "new_configs/models/%s/%s/run%s/model.pt"%(task, name, run),
+                  "checkpoint_path": checkpoint_path,
                   "checkpoint_prefix": checkpoint_prefix,
-                  "accum_grad": 1,
-                  "eval_interval": 20 * len(ids[train[0]]),
-                  "loss_fn": "mse",
+                  "eval_interval": eval_interval * len(train),
                   "train":[],
                   "dev":[],
                   "test":[]
                 }
-        output_dir = "configs/%s/%s/run%s/" % (exp, name, run)
+        output_dir = "%s/%s/%s/%s/run%s/" % (config_prefix, exp, task, name, run)
         os.makedirs(output_dir, exist_ok=True)
 
         with open(os.path.join(output_dir, cfg_file_name), "w") as fout:
@@ -90,7 +89,10 @@ def make_config(train,
 
             for split_name, split in [("train", train), ("dev", dev), ("test", test)]:
                 for id in split:
-                    tsv_file = get_files(ids[id], split=split_name)
+                    if dataset == "qe":
+                        tsv_file = get_files(ids[id], split=split_name)
+                    else:
+                        tsv_file = ["data/blogs/%s.tsv"%split_name]
                     if len(tsv_file) > 1:
                         id = "all"
                     config[split_name].append({"id": id, "tsv_file":tsv_file})
@@ -98,15 +100,78 @@ def make_config(train,
 
 #single languages
 all_lds = ["_".join(ld) for ld in ids["all"]]
-for ld in all_lds + ["all"]:
-    make_config([ld], [ld], [ld], exp="models_linformer", n_layers = 24, name=ld, n_runs=5, batch_size_per_gpu=8, learning_rate=1e-6)
 
+
+for prefix in ["new_configs2", "powerbert_configs"]:
+    for n_layers, n_heads, hidden_size, intermediate_size, exp_name, model_name, checkpoint_path in \
+            [(24, 16, 1024, 4096, "xlmr_large", "xlm-roberta-large", "./xlmr_models/xlm-roberta-large.pt"),
+             (12, 12, 768, 3072, "xlmr_base", "xlm-roberta-base", "./xlmr_models/xlm-roberta-base.pt")]:
+
+        for task in ["regression", "ordinal_regression", "classification", "bi_classification"]:
+            if model_name == "xlm-roberta-base": 
+                layers = [0,3,5,8,11]
+            else:
+                layers = [0,3,5,8,11,14,17,20,23]
+
+            for max_layer in layers:
+                if prefix == "powerbert_configs" and max_layer != layers[-1]:
+                    continue
+                for ld in all_lds + ["all"] + ["blog"]:
+                    make_config([ld], 
+                                [ld], 
+                                [ld], 
+                                exp="%s_%s"%(exp_name,max_layer),
+                                n_layers = n_layers, 
+                                n_heads = n_heads,
+                                hidden_size = hidden_size,
+                                intermediate_size = intermediate_size,
+                                max_layer = max_layer,
+                                model_name = model_name,
+                                task=task,
+                                dataset="blog" if ld=="blog" else "qe",
+                                name=ld, 
+                                n_runs=5, 
+                                batch_size_per_gpu=8, 
+                                learning_rate=1e-6,
+                                epochs=50, 
+                                eval_interval = 100 if ld=="blog" else 20,
+                                checkpoint_path=checkpoint_path,
+                                config_prefix=prefix)
+
+for n_layers, n_heads, hidden_size, intermediate_size, exp_name, model_name, checkpoint_path in \
+        [(24, 16, 1024, 4096, "xlmr_large", "xlm-roberta-large", "./xlmr_models/xlm-roberta-large.pt"),
+         (12, 12, 768, 3072, "xlmr_base", "xlm-roberta-base", "./xlmr_models/xlm-roberta-base.pt")]:
+
+    for task in ["regression", "bi_classification"]:
+        for division in [2,4,8,16, 32]:
+            int_size = int(intermediate_size/division)
+            for ld in all_lds + ["all"]:
+                make_config([ld], 
+                            [ld], 
+                            [ld], 
+                            exp="%s_%s"%(exp_name,int_size),
+                            n_layers = n_layers, 
+                            n_heads = n_heads,
+                            hidden_size = hidden_size,
+                            intermediate_size = int_size,
+                            max_layer = n_layers - 1,
+                            model_name = model_name,
+                            task=task,
+                            dataset="qe",
+                            name=ld, 
+                            n_runs=5, 
+                            batch_size_per_gpu=8, 
+                            learning_rate=1e-6,
+                            epochs=50, 
+                            eval_interval = 100 if ld=="blog" else 20,
+                            checkpoint_path=checkpoint_path,
+                            config_prefix="kd_configs")
+
+"""
 #kd cfg
 #drop top
 batch_size=8
 learning_rate=1e-4
-copy_embeddings=True
-copy_mlp=True
   
 for l in [1,6,12,18]:
     n_layers = l+1
@@ -131,10 +196,8 @@ for l in [1,6,12,18]:
                         name=ld, 
                         cfg_file_name=kd_cfg_file,
                         checkpoint_prefix=checkpoint_prefix,
-                        copy_embeddings=copy_embeddings,
                         encoder_copy_mapping=encoder_copy_mapping,
                         encoder_sup_mapping=encoder_sup_mapping,
-                        copy_mlp=copy_mlp,
                         n_layers=n_layers,
                         train_layer=train_layer,
                         use_transferset=use_transferset,
@@ -142,3 +205,4 @@ for l in [1,6,12,18]:
                         epochs=epochs,
                         learning_rate=learning_rate,
                         batch_size_per_gpu=batch_size)
+"""

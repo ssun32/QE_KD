@@ -45,7 +45,7 @@ with open(args.config_file) as fjson:
     config = json.load(fjson)
 print(config)
 
-def get_trainer(config):
+def get_trainer(config, find_powerbert_conf=False, load_powerbert_cut=False):
     #get parameters from config file
     model_name = config["model_name"]
     learning_rate= config["learning_rate"]
@@ -61,6 +61,13 @@ def get_trainer(config):
     else:
         n_classes = 6 if config["dataset"] == "qe" else 3
 
+    if load_powerbert_cut:
+        powerbert_conf = os.path.join(config["output_dir"], "best.powerbert.conf")
+        powerbert_cuts = [int(l) for l in open(powerbert_conf)]
+        print(powerbert_cuts)
+    else:
+        powerbert_cuts = None
+
     model = QETransformer(
                 hidden_size = config["hidden_size"],
                 intermediate_size = config["intermediate_size"],
@@ -69,7 +76,9 @@ def get_trainer(config):
                 max_layer = config["max_layer"],
                 checkpoint_path = config["checkpoint_path"],
                 model_name = config["model_name"],
-                n_classes = n_classes)
+                n_classes = n_classes,
+                find_powerbert_conf = find_powerbert_conf,
+                powerbert_cuts=powerbert_cuts)
 
     Dataset = QEDataset if config["dataset"] == "qe" else BlogDataset
                         
@@ -109,22 +118,14 @@ def get_trainer(config):
                         epochs=epochs,
                         eval_interval=eval_interval,
                         task=task,
+                        find_powerbert_conf=find_powerbert_conf,
                         n_classes = n_classes,
                         class_weights = class_weights,
                         config=config)
     return trainer
 
 #initialize trainer
-checkpoint = os.path.join(config["output_dir"], "checkpoint.pt")
-if os.path.exists(checkpoint):
-    try:
-        print("checkpoint found, restarting from checkpoint...")
-        trainer = torch.load(checkpoint)
-        trainer.init_logging()
-    except:
-        print("Failed to load checkpoint...")
-        trainer = get_trainer(config)
-else:
-    trainer = get_trainer(config)
-
+trainer = get_trainer(config, find_powerbert_conf=True)
+trainer.train()
+trainer = get_trainer(config, load_powerbert_cut=True)
 trainer.train()

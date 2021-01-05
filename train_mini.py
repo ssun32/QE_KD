@@ -6,9 +6,7 @@ import math
 import logging
 import numpy as np
 from modules.data import QEDataset, collate_fn
-from modules.mini_model import QEMini
-from modules.mini_model_linformer import QEMiniLinformer
-from modules.model import QETransformer
+from modules.qe_transformer import QETransformer
 from modules.trainer import QETrainer
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModel
@@ -58,7 +56,13 @@ def get_trainer(config):
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    model = QEMiniLinformer(config=config)
+    powerbert_conf = os.path.join(config["output_dir"], "powerbert.conf")
+    if os.path.exists(powerbert_conf):
+        powerbert_cuts = [int(l) for l in open(powerbert_conf)]
+    else:
+        powerbert_cuts = None
+    checkpoint_path = config["checkpoint_path"]
+    model = QETransformer(checkpoint_path=checkpoint_path, powerbert_cuts = powerbert_cuts)
     model.train()
 
     #for name, param in model.named_parameters():
@@ -84,10 +88,17 @@ def get_trainer(config):
                              collate_fn=partial(collate_fn, tokenizer=tokenizer), 
                              shuffle=False)
 
+
+    test_dataloader = DataLoader(test_dataset, 
+                             batch_size=batch_size, 
+                             collate_fn=partial(collate_fn, tokenizer=tokenizer), 
+                             shuffle=False)
+
     trainer = QETrainer(model, 
                         config["output_dir"], 
                         train_dataloader, 
                         dev_dataloader, 
+                        test_dataloader = test_dataloader,
                         checkpoint_prefix = "mini_",
                         learning_rate=learning_rate,
                         epochs=epochs,

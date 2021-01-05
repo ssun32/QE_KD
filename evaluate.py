@@ -6,10 +6,8 @@ import math
 import logging
 import numpy as np
 from modules.data import QEDataset, collate_fn
-from modules.mini_model import QEMini
-from modules.mini_model_linformer import QEMiniLinformer
-from modules.model import QETransformer
-from modules.minievaluator import MiniEvaluator
+from modules.qe_transformer import QETransformer
+from modules.evaluator import Evaluator
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, AutoModel
 from functools import partial
@@ -17,24 +15,6 @@ from scipy.stats import pearsonr
 from glob import glob
 from tqdm import tqdm
 import argparse
-
-# define the handler function
-# note that this is not executed here, but rather
-# when the associated signal is sent
-def sig_handler(signum, frame):
-    print("caught signal", signum)
-    print(socket.gethostname(), "USR1 signal caught.")
-    # do other stuff to cleanup here
-    print('requeuing job ' + os.environ['SLURM_JOB_ID'])
-    os.system('scontrol requeue ' + os.environ['SLURM_JOB_ID'])
-    sys.exit(-1)
-
-def term_handler(signum, frame):
-    print("bypassing sigterm", flush=True)
-
-signal.signal(signal.SIGUSR1, sig_handler)
-signal.signal(signal.SIGTERM, term_handler)
-print('signal installed', flush=True)
 
 #arguments
 parser = argparse.ArgumentParser()
@@ -49,18 +29,26 @@ print(args)
 with open(args.config_file) as fjson:
     config = json.load(fjson)
 
-def get_evaluator(config, checkpoint_path = None):
+def get_evaluator(config):
     #get parameters from config file
     model_name = config["model_name"]
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    student_model = QEMiniLinformer(config=config)
+    #checkpoint_path = os.path.join(config["output_dir"], "model.pt")
+    checkpoint_path = os.path.join(config["output_dir"], "mini_best.pt")
 
-    #checkpoint_path = os.path.join(config["output_dir"],
-    #        config["checkpoint_prefix"] + "layer.%s.best.pt"%config["train_layer"])
-    checkpoint_path = None
+    powerbert_conf = os.path.join(config["output_dir"], "powerbert.conf")
+    if os.path.exists(powerbert_conf):
+        powerbert_cuts = [int(l) for l in open(powerbert_conf)]
+    else:
+        powerbert_cuts = None
 
-    evaluator = MiniEvaluator(student_model, checkpoint_path)
+    model = QETransformer(config=config, 
+                          intermediate_size = 4096,
+                          checkpoint_path=checkpoint_path,
+                          powerbert_cuts = powerbert_cuts)
+
+    evaluator = Evaluator(model)
     return evaluator, tokenizer
 
 evaluator, tokenizer = get_evaluator(config)
@@ -76,15 +64,15 @@ for ld in ["en-de", "en-zh", "ro-en", "et-en", "si-en", "ne-en", "ru-en"]:
                          shuffle=False)
     dataloaders.append((ld, test_dataloader))
 
-if args.prune_layer != -1:
-    prune_dict = {args.prune_layer:[args.prune_head]}
-else:
-    prune_dict = None
+#if args.prune_layer != -1:
+#    prune_dict = {args.prune_layer:[args.prune_head]}
+#else:
+#    prune_dict = None
 
 avg_pc = 0
 avg_rmse = 0
 for ld, dataloader in dataloaders:
-    pc, rmse = evaluator.eval(dataloader, prune_dict = prune_dict)
+    pc, rmse = evaluator.eval(dataloader)
     print("%s\t%.4f\t%.4f"%(ld, pc, rmse))
     avg_pc += pc
     avg_rmse += rmse
