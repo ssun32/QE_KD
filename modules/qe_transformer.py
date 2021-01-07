@@ -57,7 +57,9 @@ class QETransformer(nn.Module):
         self.reg_head = nn.Linear(4*hidden_size, 1)
         self.cls_head = nn.Sequential(
                             nn.Linear(4*hidden_size, n_classes))
-        self.ordinal_reg_head = OrdinalLogisticModel(n_classes = n_classes)
+
+        if n_classes >= 3:
+            self.ordinal_reg_head = OrdinalLogisticModel(n_classes = n_classes)
 
         self.cls_softmax = nn.Softmax(dim=-1)
 

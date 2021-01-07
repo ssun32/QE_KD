@@ -1,0 +1,2352 @@
+::::::::::::::
+configs/models/all/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.478966 0.658461
+::::::::::::::
+configs/models/all/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+0.460317 0.608927
+::::::::::::::
+configs/models/all/run0/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.197536 0.678689
+::::::::::::::
+configs/models/all/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.470525 0.566319
+::::::::::::::
+configs/models/all/run0/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.265537 0.669392
+::::::::::::::
+configs/models/all/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.467707 0.613101
+::::::::::::::
+configs/models/all/run0/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.242333 0.680385
+::::::::::::::
+configs/models/all/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.650891 0.467843
+::::::::::::::
+configs/models/all/run0/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.340310 0.802369
+::::::::::::::
+configs/models/all/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.698454 0.416588
+::::::::::::::
+configs/models/all/run0/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.622282 0.508335
+::::::::::::::
+configs/models/all/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.473999 0.563389
+::::::::::::::
+configs/models/all/run0/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.218636 0.698361
+::::::::::::::
+configs/models/all/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.541772 0.539396
+::::::::::::::
+configs/models/all/run0/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.247904 0.717706
+::::::::::::::
+configs/models/all/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.477699 0.634439
+::::::::::::::
+configs/models/all/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.701235 0.493541
+::::::::::::::
+configs/models/all/run1/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.609923 0.613800
+::::::::::::::
+configs/models/all/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.461988 0.638774
+::::::::::::::
+configs/models/all/run1/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.243054 0.688310
+::::::::::::::
+configs/models/all/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.537927 0.588686
+::::::::::::::
+configs/models/all/run1/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.285976 0.676795
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.484818 0.633486
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.167261 0.794094
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.464385 0.622576
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.156236 0.713784
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.460469 0.597050
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.185544 0.747930
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.474341 0.636810
+::::::::::::::
+configs/models/all/run2/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.175899 0.824080
+::::::::::::::
+configs/models/all/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.639582 0.473410
+::::::::::::::
+configs/models/all/run2/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.245216 1.031563
+::::::::::::::
+configs/models/all/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.701009 0.388741
+::::::::::::::
+configs/models/all/run2/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.565268 0.676690
+::::::::::::::
+configs/models/all/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.458010 0.594910
+::::::::::::::
+configs/models/all/run2/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.227239 0.775712
+::::::::::::::
+configs/models/all/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.533946 0.553567
+::::::::::::::
+configs/models/all/run2/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.205395 0.862895
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.479929 0.694267
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.217764 0.692021
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.471681 0.658913
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.171814 0.705735
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.478015 0.655229
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.203880 0.697072
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.473049 0.626404
+::::::::::::::
+configs/models/all/run3/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.180168 0.717186
+::::::::::::::
+configs/models/all/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.643527 0.525819
+::::::::::::::
+configs/models/all/run3/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.237683 0.939822
+::::::::::::::
+configs/models/all/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.712894 0.444807
+::::::::::::::
+configs/models/all/run3/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.566208 0.658456
+::::::::::::::
+configs/models/all/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.489128 0.591212
+::::::::::::::
+configs/models/all/run3/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.175661 0.711240
+::::::::::::::
+configs/models/all/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.553876 0.590948
+::::::::::::::
+configs/models/all/run3/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.214245 0.774246
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+0.469845 0.669876
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.316871 0.664357
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.472309 0.615904
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.276965 0.718052
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.482946 0.599721
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.222681 0.720347
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.461471 0.662128
+::::::::::::::
+configs/models/all/run4/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.234946 0.683402
+::::::::::::::
+configs/models/all/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.636457 0.516626
+::::::::::::::
+configs/models/all/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.702987 0.435569
+::::::::::::::
+configs/models/all/run4/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.607974 0.523530
+::::::::::::::
+configs/models/all/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.469629 0.607056
+::::::::::::::
+configs/models/all/run4/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.253153 0.675474
+::::::::::::::
+configs/models/all/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.528550 0.616288
+::::::::::::::
+configs/models/all/run4/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.237991 0.692611
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.378243 0.548724
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.129616 0.550580
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+0.159910 0.586860
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.174910 0.550329
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.334672 0.553055
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.288799 0.545084
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.354521 0.558673
+::::::::::::::
+configs/models/en_de/run0/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.207396 0.550515
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.457990 0.520012
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.411737 0.541503
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.470138 0.526763
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.450161 0.535795
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.351589 0.538659
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.257203 0.542850
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.383979 0.548776
+::::::::::::::
+configs/models/en_de/run0/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.337343 0.537918
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.390126 0.520837
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.057739 0.565237
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_18__output.txt
+::::::::::::::
+-0.034860 0.590856
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.103755 0.581398
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_1__output.txt
+::::::::::::::
+0.355694 0.546200
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.270149 0.533568
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_6__output.txt
+::::::::::::::
+0.381775 0.540307
+::::::::::::::
+configs/models/en_de/run1/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.263251 0.536296
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_12__output.txt
+::::::::::::::
+0.507886 0.549357
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.432422 0.536315
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.503394 0.534284
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.468258 0.565824
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.362377 0.543264
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.285420 0.532169
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.439111 0.533574
+::::::::::::::
+configs/models/en_de/run1/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.342433 0.542877
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.385680 0.518076
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.231392 0.540891
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.376765 0.549612
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.123522 0.597501
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.330589 0.558683
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.282828 0.536330
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.364807 0.531126
+::::::::::::::
+configs/models/en_de/run2/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.220503 0.540485
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.474372 0.527392
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.454954 0.542339
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.490294 0.518072
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.454643 0.531772
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.349680 0.530891
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.258931 0.539147
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.434592 0.498346
+::::::::::::::
+configs/models/en_de/run2/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.346004 0.522316
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.339801 0.537683
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.216445 0.544438
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.347904 0.542204
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.262151 0.539991
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.342794 0.526524
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.228086 0.543192
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.329735 0.546745
+::::::::::::::
+configs/models/en_de/run3/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.213990 0.547721
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.453862 0.510053
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.395014 0.528600
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.472146 0.529038
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.452815 0.514393
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.298310 0.531268
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.232628 0.545718
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.394663 0.513609
+::::::::::::::
+configs/models/en_de/run3/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.298758 0.536887
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+0.353988 0.529390
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.252807 0.541541
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.343943 0.572651
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.248600 0.543864
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.374839 0.524718
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.275686 0.539488
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.330918 0.539486
+::::::::::::::
+configs/models/en_de/run4/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.251978 0.545309
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.472158 0.526842
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.445488 0.531482
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.483360 0.505050
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.468398 0.510921
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.354184 0.517609
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.265782 0.535041
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.379789 0.549589
+::::::::::::::
+configs/models/en_de/run4/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.351524 0.535554
+::::::::::::::
+configs/models/en_zh/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.317874 0.477347
+::::::::::::::
+configs/models/en_zh/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+0.293335 0.461053
+::::::::::::::
+configs/models/en_zh/run0/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.151095 0.548242
+::::::::::::::
+configs/models/en_zh/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.333154 0.473591
+::::::::::::::
+configs/models/en_zh/run0/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.203356 0.524604
+::::::::::::::
+configs/models/en_zh/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.293448 0.480352
+::::::::::::::
+configs/models/en_zh/run0/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.223226 0.526834
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.421471 0.443254
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.424840 0.457464
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.441089 0.419533
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.475861 0.545140
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.314033 0.475790
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.206891 0.534987
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.356363 0.459578
+::::::::::::::
+configs/models/en_zh/run0/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.338837 0.561192
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.326650 0.498423
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.228481 0.549757
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_18__output.txt
+::::::::::::::
+0.324066 0.507195
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.135475 0.555554
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_1__output.txt
+::::::::::::::
+0.332295 0.461450
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.235029 0.576060
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_6__output.txt
+::::::::::::::
+0.293654 0.513909
+::::::::::::::
+configs/models/en_zh/run1/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.244532 0.645025
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_12__output.txt
+::::::::::::::
+0.437197 0.447963
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.435295 0.463435
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.472862 0.422036
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.482995 0.540154
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.299712 0.479509
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.217531 0.617679
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.343673 0.453879
+::::::::::::::
+configs/models/en_zh/run1/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.376158 0.672166
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.277939 0.586429
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.226264 0.564917
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.309696 0.506604
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+-0.005592 0.928342
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.325950 0.504925
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.202803 0.554613
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.333341 0.550561
+::::::::::::::
+configs/models/en_zh/run2/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.188074 0.550490
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.437129 0.473926
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.408389 0.442371
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.454585 0.472129
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.441564 0.428217
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.305917 0.509035
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.228194 0.690242
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.380158 0.510156
+::::::::::::::
+configs/models/en_zh/run2/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.344958 0.545275
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.269950 0.651683
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.186741 0.539499
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.300516 0.599183
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.176161 0.592055
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.300146 0.548612
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.207250 0.750730
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.280255 0.591959
+::::::::::::::
+configs/models/en_zh/run3/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.216514 0.976572
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.442002 0.521643
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.430337 0.422442
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.447953 0.539899
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.429280 0.448239
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.333214 0.522371
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.236244 0.651692
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.341380 0.502933
+::::::::::::::
+configs/models/en_zh/run3/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.360204 0.505964
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+0.263884 0.595198
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.261429 0.654878
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.279994 0.538161
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.236558 0.588831
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.315735 0.560659
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.226022 0.607365
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.272649 0.634368
+::::::::::::::
+configs/models/en_zh/run4/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.244007 0.789729
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.436489 0.543758
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.433686 0.493542
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.466598 0.513378
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.450752 0.478978
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.324059 0.531189
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.231135 0.922481
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.331541 0.617499
+::::::::::::::
+configs/models/en_zh/run4/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.365997 0.726953
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.445420 0.798550
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.381538 1.037327
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+0.465670 0.704791
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.007766 1.193284
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.470378 0.676999
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.361346 1.002648
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.455701 0.766895
+::::::::::::::
+configs/models/et_en/run0/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.360726 1.019910
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.650219 0.544846
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.547841 1.189393
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.748382 0.393767
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.684788 0.908103
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.491993 0.638515
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.353029 1.048937
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.533526 0.598531
+::::::::::::::
+configs/models/et_en/run0/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.440104 1.075902
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.476912 0.685559
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.345584 1.129558
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_18__output.txt
+::::::::::::::
+0.430295 0.746891
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.335863 1.100124
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_1__output.txt
+::::::::::::::
+0.437863 0.692994
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.361571 0.968410
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_6__output.txt
+::::::::::::::
+0.462661 0.719536
+::::::::::::::
+configs/models/et_en/run1/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.339869 1.076751
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_12__output.txt
+::::::::::::::
+0.665281 0.532233
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.553048 1.186532
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.737417 0.374626
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.674985 0.923257
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.457476 0.691487
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.356571 1.049001
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.506889 0.651645
+::::::::::::::
+configs/models/et_en/run1/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.422796 1.157430
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.493287 0.645590
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.338583 1.070872
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.486557 0.621657
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.343590 1.097970
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.461712 0.697019
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.382635 1.016842
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.436395 0.709322
+::::::::::::::
+configs/models/et_en/run2/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.382200 1.015532
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.663380 0.490877
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.544839 1.179937
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.745734 0.373916
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.666014 0.935346
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.449812 0.650617
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.379299 0.990154
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.538637 0.569782
+::::::::::::::
+configs/models/et_en/run2/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.455721 1.105061
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.468365 0.706308
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.368896 1.056634
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.471017 0.697504
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.343294 1.085205
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.463804 0.685480
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.361417 1.052724
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.442577 0.714264
+::::::::::::::
+configs/models/et_en/run3/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.354190 1.053350
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.637740 0.523658
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.544615 1.160713
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.737398 0.367680
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.651956 0.957565
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.446427 0.674375
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.353869 1.030542
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.543485 0.592992
+::::::::::::::
+configs/models/et_en/run3/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.411215 1.140892
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+0.480833 0.669763
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.338111 1.106722
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.430528 0.696849
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.365790 1.169269
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.478788 0.679861
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.332218 1.054623
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.470071 0.747712
+::::::::::::::
+configs/models/et_en/run4/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.341304 1.119956
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.666954 0.614454
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.534497 1.151844
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.753856 0.463086
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.663629 1.100372
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.492694 0.720940
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.340246 1.039867
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.532085 0.643979
+::::::::::::::
+configs/models/et_en/run4/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.409809 1.088247
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.510260 0.702414
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.278414 0.895653
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+0.388951 0.601145
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.268588 0.723974
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.515843 0.677406
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.254644 0.843831
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.542980 0.598101
+::::::::::::::
+configs/models/ne_en/run0/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.280108 0.742646
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.692986 0.562006
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.422764 1.146225
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.775864 0.417050
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.677042 0.702797
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.534214 0.657349
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.287505 0.737567
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.600446 0.606987
+::::::::::::::
+configs/models/ne_en/run0/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.294223 0.970061
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.551027 0.587837
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.279763 0.792749
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_18__output.txt
+::::::::::::::
+0.487301 0.594279
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.281754 0.885689
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_1__output.txt
+::::::::::::::
+0.520975 0.591904
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.271320 0.881759
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_6__output.txt
+::::::::::::::
+0.506092 0.601847
+::::::::::::::
+configs/models/ne_en/run1/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.268167 0.725368
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_12__output.txt
+::::::::::::::
+0.684303 0.470513
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.394319 1.375331
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.772428 0.469695
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.638025 0.664313
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.531991 0.712202
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.265578 0.930153
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.592540 0.603008
+::::::::::::::
+configs/models/ne_en/run1/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.258151 1.050772
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.553418 0.673532
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.333715 0.774661
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.538564 0.733813
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.322904 0.654758
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.511117 0.631230
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.353444 0.653410
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.544241 0.575173
+::::::::::::::
+configs/models/ne_en/run2/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.339453 0.628493
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.684353 0.604148
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.444703 0.675388
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.769359 0.442027
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.704824 0.433513
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.542363 0.572278
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.363772 0.619391
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.569402 0.658307
+::::::::::::::
+configs/models/ne_en/run2/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.360712 0.617227
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.549838 0.683020
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.315651 0.644821
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.295778 0.877718
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.307795 0.644369
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.522957 0.728459
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.300285 0.642371
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.541004 0.731814
+::::::::::::::
+configs/models/ne_en/run3/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.326039 0.661854
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.695309 0.652903
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.448340 0.807594
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.775173 0.595508
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.721878 0.579877
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.546834 0.738283
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.347912 0.623085
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.584113 0.747416
+::::::::::::::
+configs/models/ne_en/run3/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.321143 0.651634
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+0.530227 0.688714
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.288996 0.743279
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.518411 0.591435
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.218263 0.681032
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.523071 0.786185
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.259116 0.848950
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.523953 0.731498
+::::::::::::::
+configs/models/ne_en/run4/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.306221 0.770188
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.682442 0.842713
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.416576 1.336191
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.780214 0.528896
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.657998 0.914226
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.542347 0.682111
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.260141 0.737828
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.560637 0.925464
+::::::::::::::
+configs/models/ne_en/run4/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.281483 1.137091
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.643808 0.623962
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.382443 1.186928
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+-0.148232 1.173346
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.365893 1.240809
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.641355 0.645934
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.333563 1.137611
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.631613 0.646384
+::::::::::::::
+configs/models/ro_en/run0/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.349640 1.213978
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.840209 0.387201
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.477954 1.209584
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.871493 0.408646
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.744917 1.119464
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.615599 0.668194
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.358679 1.234130
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.688119 0.653983
+::::::::::::::
+configs/models/ro_en/run0/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.406407 1.175083
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.622842 0.659899
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.387752 1.106409
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_18__output.txt
+::::::::::::::
+-0.221592 0.930780
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.253070 1.144536
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_1__output.txt
+::::::::::::::
+0.648653 0.625271
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.363020 1.033527
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_6__output.txt
+::::::::::::::
+0.620751 0.664581
+::::::::::::::
+configs/models/ro_en/run1/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.378928 1.057678
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_12__output.txt
+::::::::::::::
+0.836229 0.365490
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.542072 1.125235
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.877310 0.366188
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.761697 0.993993
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.630665 0.654797
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.372576 1.025175
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.670060 0.620174
+::::::::::::::
+configs/models/ro_en/run1/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.449169 1.287168
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.583141 0.767768
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.363722 1.170229
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.010186 0.941251
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.405874 1.158202
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.619713 0.701656
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.353333 1.236513
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.639404 0.662092
+::::::::::::::
+configs/models/ro_en/run2/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.370074 1.148182
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.825494 0.405137
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.474998 1.142300
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.879063 0.325828
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.761352 0.773989
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.628502 0.650440
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.386846 1.076328
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.685987 0.743672
+::::::::::::::
+configs/models/ro_en/run2/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.449806 1.166030
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.588248 0.746781
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.358619 1.394063
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.389700 1.260476
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+-0.026892 1.452795
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.639213 0.651899
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.369153 1.232741
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.598292 0.696067
+::::::::::::::
+configs/models/ro_en/run3/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.385562 1.323309
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.828402 0.467497
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.527261 1.244764
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.876203 0.302205
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.755694 1.084357
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.658340 0.621545
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.372897 1.179228
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.685613 0.619640
+::::::::::::::
+configs/models/ro_en/run3/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.458203 1.298115
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+-0.228432 1.229822
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.384960 1.266011
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.632797 0.766090
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.401962 1.210485
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.643558 0.653691
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.383540 1.261678
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.632635 0.708841
+::::::::::::::
+configs/models/ro_en/run4/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.393003 1.239541
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.823423 0.462542
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.553319 1.443692
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.870942 0.381637
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.768717 1.253028
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.630995 0.709687
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.383929 1.137518
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.705147 0.589996
+::::::::::::::
+configs/models/ro_en/run4/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.421718 1.363681
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.560063 0.660075
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.397669 0.889612
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+0.571393 0.642308
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.022380 1.134020
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.573917 0.592935
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.463757 0.825269
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.556582 0.589285
+::::::::::::::
+configs/models/ru_en/run0/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.444641 0.832926
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.646152 0.559202
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.619962 0.762146
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.677260 0.545180
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.649366 0.668101
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.557569 0.637958
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.500043 0.866556
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.583023 0.671571
+::::::::::::::
+configs/models/ru_en/run0/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.547958 0.772573
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.509914 0.733335
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.422775 1.019635
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_18__output.txt
+::::::::::::::
+-0.049042 1.083010
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.418540 0.953507
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_1__output.txt
+::::::::::::::
+0.538406 0.644425
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.452887 0.759900
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_6__output.txt
+::::::::::::::
+0.572570 0.588273
+::::::::::::::
+configs/models/ru_en/run1/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.405827 0.852958
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_12__output.txt
+::::::::::::::
+0.634370 0.529111
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.600196 0.729344
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.673008 0.551520
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.645718 0.718575
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.538155 0.671373
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.466333 0.866834
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.538142 0.687507
+::::::::::::::
+configs/models/ru_en/run1/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.545925 0.799999
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.534989 0.733930
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.456120 0.995788
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.578199 0.608524
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.418015 1.021301
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.564037 0.671209
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.453626 0.855738
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.542399 0.764438
+::::::::::::::
+configs/models/ru_en/run2/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.499797 0.826487
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.638758 0.625432
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.616620 0.771652
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.682813 0.594915
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.682587 0.721111
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.573688 0.674690
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.515706 0.855556
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.571332 0.626202
+::::::::::::::
+configs/models/ru_en/run2/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.566555 0.811241
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.020335 0.883218
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.477531 1.026716
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.531721 0.674852
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.472406 0.950513
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.575616 0.627524
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.455778 0.878745
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.536436 0.679089
+::::::::::::::
+configs/models/ru_en/run3/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.453000 0.876414
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.648104 0.585870
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.606942 0.806432
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.676296 0.506048
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.680652 0.570231
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.556204 0.636455
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.494516 0.767017
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.558674 0.609779
+::::::::::::::
+configs/models/ru_en/run3/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.567711 0.870543
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+0.536467 0.712853
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_12_unlabel__output.txt
+::::::::::::::
+0.409466 1.005153
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.509259 0.701549
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_18_unlabel__output.txt
+::::::::::::::
+0.392170 1.021140
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.565000 0.610012
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_1_unlabel__output.txt
+::::::::::::::
+0.460669 0.854691
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.584540 0.641905
+::::::::::::::
+configs/models/ru_en/run4/kdmini_bottom_6_unlabel__output.txt
+::::::::::::::
+0.446542 0.907016
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.621445 0.629485
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_12_unlabel__output.txt
+::::::::::::::
+0.599265 0.790445
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.679353 0.571161
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_18_unlabel__output.txt
+::::::::::::::
+0.651023 0.699282
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.550965 0.632436
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_1_unlabel__output.txt
+::::::::::::::
+0.477069 0.804565
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.572785 0.625714
+::::::::::::::
+configs/models/ru_en/run4/kdmini_top_6_unlabel__output.txt
+::::::::::::::
+0.546076 0.876750
+::::::::::::::
+configs/models/si_en/run0/kdmini_bottom_12__output.txt
+::::::::::::::
+0.332139 0.666127
+::::::::::::::
+configs/models/si_en/run0/kdmini_bottom_18__output.txt
+::::::::::::::
+0.170825 0.613990
+::::::::::::::
+configs/models/si_en/run0/kdmini_bottom_1__output.txt
+::::::::::::::
+0.316804 0.667804
+::::::::::::::
+configs/models/si_en/run0/kdmini_bottom_6__output.txt
+::::::::::::::
+0.359656 0.615416
+::::::::::::::
+configs/models/si_en/run0/kdmini_top_12__output.txt
+::::::::::::::
+0.537889 0.555463
+::::::::::::::
+configs/models/si_en/run0/kdmini_top_18__output.txt
+::::::::::::::
+0.642096 0.482372
+::::::::::::::
+configs/models/si_en/run0/kdmini_top_1__output.txt
+::::::::::::::
+0.372781 0.628473
+::::::::::::::
+configs/models/si_en/run0/kdmini_top_6__output.txt
+::::::::::::::
+0.373751 0.643790
+::::::::::::::
+configs/models/si_en/run1/kdmini_bottom_12__output.txt
+::::::::::::::
+0.369484 0.643589
+::::::::::::::
+configs/models/si_en/run1/kdmini_bottom_18__output.txt
+::::::::::::::
+0.397067 0.669371
+::::::::::::::
+configs/models/si_en/run1/kdmini_bottom_1__output.txt
+::::::::::::::
+0.375619 0.670497
+::::::::::::::
+configs/models/si_en/run1/kdmini_bottom_6__output.txt
+::::::::::::::
+0.368619 0.718665
+::::::::::::::
+configs/models/si_en/run1/kdmini_top_12__output.txt
+::::::::::::::
+0.575954 0.517306
+::::::::::::::
+configs/models/si_en/run1/kdmini_top_18__output.txt
+::::::::::::::
+0.637552 0.491561
+::::::::::::::
+configs/models/si_en/run1/kdmini_top_1__output.txt
+::::::::::::::
+0.371260 0.623758
+::::::::::::::
+configs/models/si_en/run1/kdmini_top_6__output.txt
+::::::::::::::
+0.428985 0.705274
+::::::::::::::
+configs/models/si_en/run2/kdmini_bottom_12__output.txt
+::::::::::::::
+0.375116 0.704774
+::::::::::::::
+configs/models/si_en/run2/kdmini_bottom_18__output.txt
+::::::::::::::
+0.373737 0.709212
+::::::::::::::
+configs/models/si_en/run2/kdmini_bottom_1__output.txt
+::::::::::::::
+0.355706 0.635115
+::::::::::::::
+configs/models/si_en/run2/kdmini_bottom_6__output.txt
+::::::::::::::
+0.360029 0.701800
+::::::::::::::
+configs/models/si_en/run2/kdmini_top_12__output.txt
+::::::::::::::
+0.540890 0.837998
+::::::::::::::
+configs/models/si_en/run2/kdmini_top_18__output.txt
+::::::::::::::
+0.659950 0.571741
+::::::::::::::
+configs/models/si_en/run2/kdmini_top_1__output.txt
+::::::::::::::
+0.371807 0.696942
+::::::::::::::
+configs/models/si_en/run2/kdmini_top_6__output.txt
+::::::::::::::
+0.398118 0.615721
+::::::::::::::
+configs/models/si_en/run3/kdmini_bottom_12__output.txt
+::::::::::::::
+0.391683 0.786519
+::::::::::::::
+configs/models/si_en/run3/kdmini_bottom_18__output.txt
+::::::::::::::
+0.368113 0.857108
+::::::::::::::
+configs/models/si_en/run3/kdmini_bottom_1__output.txt
+::::::::::::::
+0.361025 0.815484
+::::::::::::::
+configs/models/si_en/run3/kdmini_bottom_6__output.txt
+::::::::::::::
+0.378893 0.723133
+::::::::::::::
+configs/models/si_en/run3/kdmini_top_12__output.txt
+::::::::::::::
+0.547222 0.764118
+::::::::::::::
+configs/models/si_en/run3/kdmini_top_18__output.txt
+::::::::::::::
+0.645436 0.663071
+::::::::::::::
+configs/models/si_en/run3/kdmini_top_1__output.txt
+::::::::::::::
+0.391620 0.656272
+::::::::::::::
+configs/models/si_en/run3/kdmini_top_6__output.txt
+::::::::::::::
+0.423633 0.676632
+::::::::::::::
+configs/models/si_en/run4/kdmini_bottom_12__output.txt
+::::::::::::::
+0.369998 0.698980
+::::::::::::::
+configs/models/si_en/run4/kdmini_bottom_18__output.txt
+::::::::::::::
+0.346598 0.673889
+::::::::::::::
+configs/models/si_en/run4/kdmini_bottom_1__output.txt
+::::::::::::::
+0.351292 0.689148
+::::::::::::::
+configs/models/si_en/run4/kdmini_bottom_6__output.txt
+::::::::::::::
+0.352960 0.715225
+::::::::::::::
+configs/models/si_en/run4/kdmini_top_12__output.txt
+::::::::::::::
+0.555685 0.531305
+::::::::::::::
+configs/models/si_en/run4/kdmini_top_18__output.txt
+::::::::::::::
+0.637664 0.493648
+::::::::::::::
+configs/models/si_en/run4/kdmini_top_1__output.txt
+::::::::::::::
+0.373179 0.640190
+::::::::::::::
+configs/models/si_en/run4/kdmini_top_6__output.txt
+::::::::::::::
+0.406048 0.674787

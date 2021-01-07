@@ -1,0 +1,520 @@
+::::::::::::::
+configs/models/all/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/all/run0/config.json', num_gpus=1)
+en-de	0.4876	0.3872
+en-zh	0.4675	0.4128
+ro-en	0.8843	0.1851
+et-en	0.8002	0.3423
+si-en	0.6625	0.3439
+ne-en	0.7914	0.2581
+ru-en	0.7641	0.3931
+Avg	0.6939	0.3318
+::::::::::::::
+configs/models/all/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/all/run1/config.json', num_gpus=1)
+en-de	0.5020	0.3812
+en-zh	0.4688	0.5041
+ro-en	0.8788	0.2097
+et-en	0.7865	0.4184
+si-en	0.6479	0.3877
+ne-en	0.7682	0.3335
+ru-en	0.7691	0.4503
+Avg	0.6888	0.3836
+::::::::::::::
+configs/models/all/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/all/run2/config.json', num_gpus=1)
+en-de	0.4778	0.3895
+en-zh	0.4665	0.4289
+ro-en	0.8871	0.1897
+et-en	0.7947	0.3415
+si-en	0.6572	0.3779
+ne-en	0.7852	0.2870
+ru-en	0.7643	0.4032
+Avg	0.6904	0.3454
+::::::::::::::
+configs/models/all/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/all/run3/config.json', num_gpus=1)
+en-de	0.5014	0.3865
+en-zh	0.4764	0.5017
+ro-en	0.8817	0.2091
+et-en	0.7886	0.4190
+si-en	0.6595	0.3917
+ne-en	0.7844	0.3143
+ru-en	0.7673	0.4361
+Avg	0.6942	0.3798
+::::::::::::::
+configs/models/all/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/all/run4/config.json', num_gpus=1)
+en-de	0.4987	0.3814
+en-zh	0.4722	0.4250
+ro-en	0.8807	0.2027
+et-en	0.8008	0.3862
+si-en	0.6599	0.3721
+ne-en	0.7833	0.3080
+ru-en	0.7667	0.4044
+Avg	0.6946	0.3543
+::::::::::::::
+configs/models/en_de/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_de/run0/config.json', num_gpus=1)
+en-de	0.4301	0.4253
+en-zh	0.3170	0.4130
+ro-en	0.4404	0.7538
+et-en	0.4337	0.7774
+si-en	0.4053	0.4892
+ne-en	0.3296	0.6291
+ru-en	0.3335	0.8498
+Avg	0.3842	0.6197
+::::::::::::::
+configs/models/en_de/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_de/run1/config.json', num_gpus=1)
+en-de	0.4551	0.4037
+en-zh	0.2956	0.4026
+ro-en	0.4708	0.7239
+et-en	0.4419	0.7745
+si-en	0.4332	0.4686
+ne-en	0.3738	0.6147
+ru-en	0.4884	0.7790
+Avg	0.4227	0.5953
+::::::::::::::
+configs/models/en_de/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_de/run2/config.json', num_gpus=1)
+en-de	0.4168	0.4132
+en-zh	0.2562	0.4215
+ro-en	0.4093	0.7386
+et-en	0.4243	0.7359
+si-en	0.3515	0.4690
+ne-en	0.3204	0.6266
+ru-en	0.4534	0.7839
+Avg	0.3760	0.5984
+::::::::::::::
+configs/models/en_de/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_de/run3/config.json', num_gpus=1)
+en-de	0.4422	0.4150
+en-zh	0.2842	0.4071
+ro-en	0.4332	0.7687
+et-en	0.3765	0.7719
+si-en	0.4219	0.4741
+ne-en	0.3062	0.6228
+ru-en	0.3191	0.8491
+Avg	0.3690	0.6155
+::::::::::::::
+configs/models/en_de/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_de/run4/config.json', num_gpus=1)
+en-de	0.4427	0.4070
+en-zh	0.2783	0.4045
+ro-en	0.4713	0.7127
+et-en	0.4555	0.7244
+si-en	0.3956	0.4675
+ne-en	0.3712	0.5894
+ru-en	0.3865	0.8227
+Avg	0.4002	0.5897
+::::::::::::::
+configs/models/en_zh/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_zh/run0/config.json', num_gpus=1)
+en-de	0.3851	0.6554
+en-zh	0.4568	0.4166
+ro-en	0.5714	0.6160
+et-en	0.5905	0.5456
+si-en	0.3898	0.4482
+ne-en	0.4419	0.5868
+ru-en	0.5504	0.6755
+Avg	0.4837	0.5634
+::::::::::::::
+configs/models/en_zh/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_zh/run1/config.json', num_gpus=1)
+en-de	0.3864	0.9157
+en-zh	0.4663	0.4204
+ro-en	0.5523	0.6905
+et-en	0.5900	0.5408
+si-en	0.4080	0.4412
+ne-en	0.4549	0.6587
+ru-en	0.5581	0.6592
+Avg	0.4880	0.6181
+::::::::::::::
+configs/models/en_zh/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_zh/run2/config.json', num_gpus=1)
+en-de	0.3921	0.5839
+en-zh	0.4825	0.4619
+ro-en	0.5074	0.6543
+et-en	0.6184	0.6552
+si-en	0.5168	0.4388
+ne-en	0.4975	0.5228
+ru-en	0.5145	0.7576
+Avg	0.5042	0.5821
+::::::::::::::
+configs/models/en_zh/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_zh/run3/config.json', num_gpus=1)
+en-de	0.3800	0.5452
+en-zh	0.4687	0.5336
+ro-en	0.5011	0.6786
+et-en	0.6047	0.7104
+si-en	0.4758	0.4749
+ne-en	0.4683	0.5363
+ru-en	0.4918	0.8326
+Avg	0.4843	0.6159
+::::::::::::::
+configs/models/en_zh/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/en_zh/run4/config.json', num_gpus=1)
+en-de	0.4217	0.6497
+en-zh	0.4795	0.5371
+ro-en	0.5486	0.6013
+et-en	0.5950	0.5386
+si-en	0.4628	0.4208
+ne-en	0.4700	0.5532
+ru-en	0.5566	0.6457
+Avg	0.5049	0.5638
+::::::::::::::
+configs/models/et_en/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/et_en/run0/config.json', num_gpus=1)
+en-de	0.3083	0.5490
+en-zh	0.3627	0.4733
+ro-en	0.6538	0.5276
+et-en	0.7748	0.3902
+si-en	0.5377	0.5681
+ne-en	0.6304	0.7600
+ru-en	0.6366	0.6824
+Avg	0.5578	0.5644
+::::::::::::::
+configs/models/et_en/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/et_en/run1/config.json', num_gpus=1)
+en-de	0.3070	0.5386
+en-zh	0.3671	0.4757
+ro-en	0.6704	0.4822
+et-en	0.7650	0.4083
+si-en	0.5441	0.5860
+ne-en	0.6412	0.8241
+ru-en	0.6372	0.6010
+Avg	0.5617	0.5594
+::::::::::::::
+configs/models/et_en/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/et_en/run2/config.json', num_gpus=1)
+en-de	0.3074	0.5569
+en-zh	0.3705	0.4800
+ro-en	0.6631	0.5208
+et-en	0.7662	0.4035
+si-en	0.5441	0.6578
+ne-en	0.6545	0.5683
+ru-en	0.6370	0.6646
+Avg	0.5633	0.5503
+::::::::::::::
+configs/models/et_en/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/et_en/run3/config.json', num_gpus=1)
+en-de	0.3030	0.5753
+en-zh	0.3767	0.4589
+ro-en	0.6658	0.4908
+et-en	0.7666	0.3962
+si-en	0.5445	0.6062
+ne-en	0.6259	0.7826
+ru-en	0.6232	0.6390
+Avg	0.5580	0.5641
+::::::::::::::
+configs/models/et_en/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/et_en/run4/config.json', num_gpus=1)
+en-de	0.3190	0.4831
+en-zh	0.3819	0.3947
+ro-en	0.6659	0.5386
+et-en	0.7733	0.4207
+si-en	0.5314	0.6392
+ne-en	0.6446	0.6573
+ru-en	0.6471	0.5807
+Avg	0.5662	0.5306
+::::::::::::::
+configs/models/ne_en/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ne_en/run0/config.json', num_gpus=1)
+en-de	0.3365	1.2388
+en-zh	0.3379	1.2017
+ro-en	0.8042	1.5181
+et-en	0.7430	1.6483
+si-en	0.6243	0.7170
+ne-en	0.7716	0.3572
+ru-en	0.6327	1.5209
+Avg	0.6072	1.1717
+::::::::::::::
+configs/models/ne_en/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ne_en/run1/config.json', num_gpus=1)
+en-de	0.3336	1.1349
+en-zh	0.3503	1.0200
+ro-en	0.8038	1.0796
+et-en	0.7551	1.3732
+si-en	0.6310	0.5547
+ne-en	0.7698	0.3217
+ru-en	0.6321	1.2145
+Avg	0.6108	0.9569
+::::::::::::::
+configs/models/ne_en/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ne_en/run2/config.json', num_gpus=1)
+en-de	0.3032	0.9175
+en-zh	0.3260	0.7088
+ro-en	0.7980	0.9833
+et-en	0.7062	1.3725
+si-en	0.6085	0.6748
+ne-en	0.7722	0.3420
+ru-en	0.5994	1.0718
+Avg	0.5877	0.8672
+::::::::::::::
+configs/models/ne_en/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ne_en/run3/config.json', num_gpus=1)
+en-de	0.3084	1.2537
+en-zh	0.3279	0.9912
+ro-en	0.7862	1.1422
+et-en	0.6278	1.6022
+si-en	0.5918	0.9242
+ne-en	0.7699	0.4264
+ru-en	0.6394	1.2203
+Avg	0.5788	1.0800
+::::::::::::::
+configs/models/ne_en/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ne_en/run4/config.json', num_gpus=1)
+en-de	0.3491	1.4546
+en-zh	0.3374	1.2622
+ro-en	0.8215	1.5236
+et-en	0.7451	1.9208
+si-en	0.6175	0.7591
+ne-en	0.7769	0.3735
+ru-en	0.6050	1.6544
+Avg	0.6075	1.2783
+::::::::::::::
+configs/models/ro_en/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ro_en/run0/config.json', num_gpus=1)
+en-de	0.3200	0.7291
+en-zh	0.2910	0.6504
+ro-en	0.8821	0.2231
+et-en	0.7201	0.5081
+si-en	0.5964	0.5062
+ne-en	0.7340	0.7835
+ru-en	0.6400	0.6176
+Avg	0.5977	0.5740
+::::::::::::::
+configs/models/ro_en/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ro_en/run1/config.json', num_gpus=1)
+en-de	0.3334	0.5300
+en-zh	0.3036	0.6130
+ro-en	0.8835	0.2148
+et-en	0.7636	0.3910
+si-en	0.6041	0.8625
+ne-en	0.7425	1.0579
+ru-en	0.6341	0.5944
+Avg	0.6093	0.6091
+::::::::::::::
+configs/models/ro_en/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ro_en/run2/config.json', num_gpus=1)
+en-de	0.3251	0.7253
+en-zh	0.2970	0.6403
+ro-en	0.8778	0.2247
+et-en	0.7142	0.5564
+si-en	0.5909	0.4917
+ne-en	0.7404	0.8331
+ru-en	0.6503	0.5866
+Avg	0.5994	0.5797
+::::::::::::::
+configs/models/ro_en/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ro_en/run3/config.json', num_gpus=1)
+en-de	0.3334	0.6579
+en-zh	0.2927	0.6219
+ro-en	0.8781	0.2199
+et-en	0.7073	0.5139
+si-en	0.5845	0.4862
+ne-en	0.7210	0.6452
+ru-en	0.6396	0.6056
+Avg	0.5938	0.5358
+::::::::::::::
+configs/models/ro_en/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ro_en/run4/config.json', num_gpus=1)
+en-de	0.3330	0.5847
+en-zh	0.3030	0.5906
+ro-en	0.8797	0.2291
+et-en	0.7621	0.3374
+si-en	0.6042	0.6221
+ne-en	0.7308	0.7196
+ru-en	0.6288	0.6526
+Avg	0.6059	0.5337
+::::::::::::::
+configs/models/ru_en/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ru_en/run0/config.json', num_gpus=1)
+en-de	0.3389	0.5216
+en-zh	0.3597	0.4856
+ro-en	0.5983	0.6350
+et-en	0.6205	0.6433
+si-en	0.5718	0.3738
+ne-en	0.6301	0.4274
+ru-en	0.7442	0.4539
+Avg	0.5519	0.5058
+::::::::::::::
+configs/models/ru_en/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ru_en/run1/config.json', num_gpus=1)
+en-de	0.3149	0.5868
+en-zh	0.3742	0.5102
+ro-en	0.5977	0.6612
+et-en	0.5950	0.7204
+si-en	0.5811	0.4398
+ne-en	0.5930	0.4738
+ru-en	0.7425	0.4440
+Avg	0.5426	0.5480
+::::::::::::::
+configs/models/ru_en/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ru_en/run2/config.json', num_gpus=1)
+en-de	0.3336	0.5997
+en-zh	0.3701	0.5674
+ro-en	0.6068	0.7160
+et-en	0.6113	0.7746
+si-en	0.5785	0.3615
+ne-en	0.6184	0.4392
+ru-en	0.7467	0.4629
+Avg	0.5522	0.5602
+::::::::::::::
+configs/models/ru_en/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ru_en/run3/config.json', num_gpus=1)
+en-de	0.3313	0.5699
+en-zh	0.3757	0.4734
+ro-en	0.6259	0.6250
+et-en	0.6369	0.6066
+si-en	0.5822	0.3739
+ne-en	0.6171	0.4930
+ru-en	0.7443	0.4480
+Avg	0.5591	0.5128
+::::::::::::::
+configs/models/ru_en/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/ru_en/run4/config.json', num_gpus=1)
+en-de	0.3474	0.5778
+en-zh	0.3680	0.5191
+ro-en	0.6260	0.6047
+et-en	0.6193	0.6102
+si-en	0.5802	0.4187
+ne-en	0.6433	0.5457
+ru-en	0.7345	0.4706
+Avg	0.5598	0.5353
+::::::::::::::
+configs/models/si_en/run0/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/si_en/run0/config.json', num_gpus=1)
+en-de	0.3487	0.9380
+en-zh	0.3253	0.9198
+ro-en	0.7328	0.7656
+et-en	0.7006	1.0360
+si-en	0.6230	0.3870
+ne-en	0.7097	0.3288
+ru-en	0.6090	0.8955
+Avg	0.5784	0.7529
+::::::::::::::
+configs/models/si_en/run1/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/si_en/run1/config.json', num_gpus=1)
+en-de	0.3097	0.8437
+en-zh	0.3099	0.8756
+ro-en	0.7316	0.8649
+et-en	0.6564	1.1432
+si-en	0.6275	0.3902
+ne-en	0.7292	0.3147
+ru-en	0.6163	0.8301
+Avg	0.5686	0.7518
+::::::::::::::
+configs/models/si_en/run2/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/si_en/run2/config.json', num_gpus=1)
+en-de	0.2973	0.7906
+en-zh	0.3445	0.7561
+ro-en	0.7333	0.7046
+et-en	0.7367	0.9753
+si-en	0.6491	0.3891
+ne-en	0.7162	0.3306
+ru-en	0.6265	0.9008
+Avg	0.5862	0.6925
+::::::::::::::
+configs/models/si_en/run3/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/si_en/run3/config.json', num_gpus=1)
+en-de	0.3029	0.6975
+en-zh	0.3136	0.6202
+ro-en	0.8079	0.5931
+et-en	0.6999	0.8238
+si-en	0.6408	0.4322
+ne-en	0.7496	0.3854
+ru-en	0.5691	0.7758
+Avg	0.5834	0.6183
+::::::::::::::
+configs/models/si_en/run4/config.eval.out
+::::::::::::::
+signal installed
+Namespace(config_file='configs/models/si_en/run4/config.json', num_gpus=1)
+en-de	0.3101	0.5583
+en-zh	0.2905	0.5207
+ro-en	0.7129	0.5509
+et-en	0.6378	0.7500
+si-en	0.6119	0.4113
+ne-en	0.7229	0.4844
+ru-en	0.6247	0.5889
+Avg	0.5587	0.5521

@@ -214,7 +214,7 @@ class QETrainer(object):
 
                     if m > self.best_eval_result:
                         self.best_eval_result = m
-                        #torch.save(self.model.module.state_dict(), self.best_model_path)
+                        torch.save(self.model.module.state_dict(), self.best_model_path)
 
                         if self.find_powerbert_conf:
                             with open(self.best_powerbert_conf, "w") as fout:

@@ -102,12 +102,14 @@ def make_config(train,
 all_lds = ["_".join(ld) for ld in ids["all"]]
 
 
-for prefix in ["new_configs2", "powerbert_configs"]:
+for prefix in ["new_configs3"]:
     for n_layers, n_heads, hidden_size, intermediate_size, exp_name, model_name, checkpoint_path in \
             [(24, 16, 1024, 4096, "xlmr_large", "xlm-roberta-large", "./xlmr_models/xlm-roberta-large.pt"),
              (12, 12, 768, 3072, "xlmr_base", "xlm-roberta-base", "./xlmr_models/xlm-roberta-base.pt")]:
 
-        for task in ["regression", "ordinal_regression", "classification", "bi_classification"]:
+        #for task in ["regression", "ordinal_regression", "classification", "bi_classification"]:
+        for task in ["bi_classification"]:
+
             if model_name == "xlm-roberta-base": 
                 layers = [0,3,5,8,11]
             else:
@@ -143,7 +145,7 @@ for n_layers, n_heads, hidden_size, intermediate_size, exp_name, model_name, che
          (12, 12, 768, 3072, "xlmr_base", "xlm-roberta-base", "./xlmr_models/xlm-roberta-base.pt")]:
 
     for task in ["regression", "bi_classification"]:
-        for division in [2,4,8,16, 32]:
+        for division in [1, 2,4,8,16]:
             int_size = int(intermediate_size/division)
             for ld in all_lds + ["all"]:
                 make_config([ld], 

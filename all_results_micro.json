@@ -1,0 +1,2312 @@
+{
+    "all": {
+        "regression": {
+            "base": {
+                "0": {
+                    "en_de": {
+                        "regression": 0.27124175653317106,
+                        "classification": 0.3832,
+                        "bi_classification": 0.9878419452887537
+                    },
+                    "en_zh": {
+                        "regression": 0.20013910873484386,
+                        "classification": 0.4194,
+                        "bi_classification": 0.9094879787454777
+                    },
+                    "ro_en": {
+                        "regression": 0.5878035103068695,
+                        "classification": 0.32320000000000004,
+                        "bi_classification": 0.8810108275450315
+                    },
+                    "et_en": {
+                        "regression": 0.4247867143681753,
+                        "classification": 0.23620000000000002,
+                        "bi_classification": 0.7282547561399041
+                    },
+                    "si_en": {
+                        "regression": 0.3938648196429882,
+                        "classification": 0.3656,
+                        "bi_classification": 0.6457719637680462
+                    },
+                    "ne_en": {
+                        "regression": 0.4792467712983678,
+                        "classification": 0.4678,
+                        "bi_classification": 0.262001815924006
+                    },
+                    "ru_en": {
+                        "regression": 0.5982089134016977,
+                        "classification": 0.4204,
+                        "bi_classification": 0.8727699057164857
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "regression": 0.32803357747285367,
+                        "classification": 0.36740000000000006,
+                        "bi_classification": 0.9877419106613827
+                    },
+                    "en_zh": {
+                        "regression": 0.2582607183618428,
+                        "classification": 0.41080000000000005,
+                        "bi_classification": 0.9103806057369888
+                    },
+                    "ro_en": {
+                        "regression": 0.6414720092433157,
+                        "classification": 0.33240000000000003,
+                        "bi_classification": 0.8820753430803473
+                    },
+                    "et_en": {
+                        "regression": 0.5074600843863413,
+                        "classification": 0.2542,
+                        "bi_classification": 0.7498444436147051
+                    },
+                    "si_en": {
+                        "regression": 0.43342336832258155,
+                        "classification": 0.3532,
+                        "bi_classification": 0.6460210092661185
+                    },
+                    "ne_en": {
+                        "regression": 0.5270073124949727,
+                        "classification": 0.4912000000000001,
+                        "bi_classification": 0.41321799399939463
+                    },
+                    "ru_en": {
+                        "regression": 0.6296167616095927,
+                        "classification": 0.45220000000000005,
+                        "bi_classification": 0.8800760902759286
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "regression": 0.28905540266617236,
+                        "classification": 0.46399999999999997,
+                        "bi_classification": 0.9873417721518987
+                    },
+                    "en_zh": {
+                        "regression": 0.29518877707164304,
+                        "classification": 0.3884,
+                        "bi_classification": 0.9101021876073571
+                    },
+                    "ro_en": {
+                        "regression": 0.7107310468071234,
+                        "classification": 0.40120000000000006,
+                        "bi_classification": 0.8949408387482842
+                    },
+                    "et_en": {
+                        "regression": 0.5907517888035471,
+                        "classification": 0.2766,
+                        "bi_classification": 0.7596088145868871
+                    },
+                    "si_en": {
+                        "regression": 0.5288270420934726,
+                        "classification": 0.3888000000000001,
+                        "bi_classification": 0.7198925229263641
+                    },
+                    "ne_en": {
+                        "regression": 0.5917294996454111,
+                        "classification": 0.48719999999999997,
+                        "bi_classification": 0.4950146682991944
+                    },
+                    "ru_en": {
+                        "regression": 0.6808603637243348,
+                        "classification": 0.44539999999999996,
+                        "bi_classification": 0.887187037558439
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "regression": 0.3951381171144184,
+                        "classification": 0.4676,
+                        "bi_classification": 0.9878419452887537
+                    },
+                    "en_zh": {
+                        "regression": 0.3922718758126403,
+                        "classification": 0.4032,
+                        "bi_classification": 0.9110047180410717
+                    },
+                    "ro_en": {
+                        "regression": 0.8121488400094268,
+                        "classification": 0.4558,
+                        "bi_classification": 0.9074769081423171
+                    },
+                    "et_en": {
+                        "regression": 0.6731642561198028,
+                        "classification": 0.28600000000000003,
+                        "bi_classification": 0.7712126044768557
+                    },
+                    "si_en": {
+                        "regression": 0.5816724388379971,
+                        "classification": 0.4024,
+                        "bi_classification": 0.7152970208342577
+                    },
+                    "ne_en": {
+                        "regression": 0.6747994315801249,
+                        "classification": 0.5154,
+                        "bi_classification": 0.5756481856574592
+                    },
+                    "ru_en": {
+                        "regression": 0.719528404519653,
+                        "classification": 0.47400000000000003,
+                        "bi_classification": 0.8955024526268767
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "regression": 0.42040964496098165,
+                        "classification": 0.5172000000000001,
+                        "bi_classification": 0.9878419452887537
+                    },
+                    "en_zh": {
+                        "regression": 0.4304790656685378,
+                        "classification": 0.386,
+                        "bi_classification": 0.9104062018580115
+                    },
+                    "ro_en": {
+                        "regression": 0.832278580341827,
+                        "classification": 0.5102,
+                        "bi_classification": 0.9124147426805423
+                    },
+                    "et_en": {
+                        "regression": 0.7115576326678823,
+                        "classification": 0.29979999999999996,
+                        "bi_classification": 0.7816185925824405
+                    },
+                    "si_en": {
+                        "regression": 0.6152482139228297,
+                        "classification": 0.4136,
+                        "bi_classification": 0.7204252532616355
+                    },
+                    "ne_en": {
+                        "regression": 0.7056182386021115,
+                        "classification": 0.54,
+                        "bi_classification": 0.5865065587032867
+                    },
+                    "ru_en": {
+                        "regression": 0.7460482602539223,
+                        "classification": 0.4354,
+                        "bi_classification": 0.9009246012541812
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "en_de": {
+                        "regression": 0.2608725771498891,
+                        "classification": 0.4056,
+                        "bi_classification": 0.9873417721518987
+                    },
+                    "en_zh": {
+                        "regression": 0.21447326691948826,
+                        "classification": 0.40499999999999997,
+                        "bi_classification": 0.9100817438692099
+                    },
+                    "ro_en": {
+                        "regression": 0.5760990147248503,
+                        "classification": 0.3122,
+                        "bi_classification": 0.8821635056666677
+                    },
+                    "et_en": {
+                        "regression": 0.4229973462169815,
+                        "classification": 0.2352,
+                        "bi_classification": 0.7270214528711182
+                    },
+                    "si_en": {
+                        "regression": 0.40646332818012904,
+                        "classification": 0.3638,
+                        "bi_classification": 0.686256388239282
+                    },
+                    "ne_en": {
+                        "regression": 0.49118816313488145,
+                        "classification": 0.4612,
+                        "bi_classification": 0.3696962487970353
+                    },
+                    "ru_en": {
+                        "regression": 0.5929353493676568,
+                        "classification": 0.41340000000000005,
+                        "bi_classification": 0.874476882261478
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "regression": 0.34087212677582973,
+                        "classification": 0.46420000000000006,
+                        "bi_classification": 0.9874418067792696
+                    },
+                    "en_zh": {
+                        "regression": 0.23028469926555192,
+                        "classification": 0.396,
+                        "bi_classification": 0.9101417452321743
+                    },
+                    "ro_en": {
+                        "regression": 0.6703010974111367,
+                        "classification": 0.3874,
+                        "bi_classification": 0.8911576467889389
+                    },
+                    "et_en": {
+                        "regression": 0.535866643746706,
+                        "classification": 0.26220000000000004,
+                        "bi_classification": 0.7559277023836078
+                    },
+                    "si_en": {
+                        "regression": 0.46784073043476815,
+                        "classification": 0.356,
+                        "bi_classification": 0.7014913700862007
+                    },
+                    "ne_en": {
+                        "regression": 0.5258728297781348,
+                        "classification": 0.48119999999999996,
+                        "bi_classification": 0.41053136960467596
+                    },
+                    "ru_en": {
+                        "regression": 0.6446633438516649,
+                        "classification": 0.422,
+                        "bi_classification": 0.883014689864339
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "regression": 0.31219015748023893,
+                        "classification": 0.4404,
+                        "bi_classification": 0.9873417721518987
+                    },
+                    "en_zh": {
+                        "regression": 0.2919213461326192,
+                        "classification": 0.4004,
+                        "bi_classification": 0.9107788131471108
+                    },
+                    "ro_en": {
+                        "regression": 0.7007460275410163,
+                        "classification": 0.3912,
+                        "bi_classification": 0.892281802618918
+                    },
+                    "et_en": {
+                        "regression": 0.5659146581038639,
+                        "classification": 0.2544,
+                        "bi_classification": 0.7554512742014781
+                    },
+                    "si_en": {
+                        "regression": 0.513384749183545,
+                        "classification": 0.3722,
+                        "bi_classification": 0.7294965778265852
+                    },
+                    "ne_en": {
+                        "regression": 0.5641605748464611,
+                        "classification": 0.4706,
+                        "bi_classification": 0.5002472983115271
+                    },
+                    "ru_en": {
+                        "regression": 0.6792845258138127,
+                        "classification": 0.43079999999999996,
+                        "bi_classification": 0.8861466458034284
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "regression": 0.3851916095765678,
+                        "classification": 0.4779999999999999,
+                        "bi_classification": 0.9873417721518987
+                    },
+                    "en_zh": {
+                        "regression": 0.33503056645003254,
+                        "classification": 0.38859999999999995,
+                        "bi_classification": 0.9112227156611444
+                    },
+                    "ro_en": {
+                        "regression": 0.7129190319523021,
+                        "classification": 0.40219999999999995,
+                        "bi_classification": 0.8909329236019154
+                    },
+                    "et_en": {
+                        "regression": 0.6121083476619569,
+                        "classification": 0.2692,
+                        "bi_classification": 0.7545166364098453
+                    },
+                    "si_en": {
+                        "regression": 0.5262327974468631,
+                        "classification": 0.3718,
+                        "bi_classification": 0.7206921448907073
+                    },
+                    "ne_en": {
+                        "regression": 0.5874174751409372,
+                        "classification": 0.4758,
+                        "bi_classification": 0.5145095654324094
+                    },
+                    "ru_en": {
+                        "regression": 0.6817767645969269,
+                        "classification": 0.41400000000000003,
+                        "bi_classification": 0.884374347273431
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "regression": 0.46024726269959126,
+                        "classification": 0.48319999999999996,
+                        "bi_classification": 0.9877419106613827
+                    },
+                    "en_zh": {
+                        "regression": 0.4416374062797554,
+                        "classification": 0.4152,
+                        "bi_classification": 0.9116424418545422
+                    },
+                    "ro_en": {
+                        "regression": 0.8470394445694867,
+                        "classification": 0.5012000000000001,
+                        "bi_classification": 0.9129015405366039
+                    },
+                    "et_en": {
+                        "regression": 0.7156578502108529,
+                        "classification": 0.2872,
+                        "bi_classification": 0.7755860151304494
+                    },
+                    "si_en": {
+                        "regression": 0.5966531419111878,
+                        "classification": 0.3956,
+                        "bi_classification": 0.7294775792301211
+                    },
+                    "ne_en": {
+                        "regression": 0.7021212866560959,
+                        "classification": 0.5102,
+                        "bi_classification": 0.5985057290747295
+                    },
+                    "ru_en": {
+                        "regression": 0.7443325224907857,
+                        "classification": 0.45780000000000004,
+                        "bi_classification": 0.8972966257818366
+                    }
+                },
+                "14": {
+                    "en_de": {
+                        "regression": 0.476636324259891,
+                        "classification": 0.45380000000000004,
+                        "bi_classification": 0.9876418760340118
+                    },
+                    "en_zh": {
+                        "regression": 0.4379791211601721,
+                        "classification": 0.4034,
+                        "bi_classification": 0.9095463353138076
+                    },
+                    "ro_en": {
+                        "regression": 0.8509863872814855,
+                        "classification": 0.5224,
+                        "bi_classification": 0.9169076733687499
+                    },
+                    "et_en": {
+                        "regression": 0.7493273996040382,
+                        "classification": 0.29979999999999996,
+                        "bi_classification": 0.7825705545016896
+                    },
+                    "si_en": {
+                        "regression": 0.6215276904747762,
+                        "classification": 0.4086,
+                        "bi_classification": 0.725970118148971
+                    },
+                    "ne_en": {
+                        "regression": 0.7372370324722589,
+                        "classification": 0.5278,
+                        "bi_classification": 0.621213221316818
+                    },
+                    "ru_en": {
+                        "regression": 0.7575937357530982,
+                        "classification": 0.47859999999999997,
+                        "bi_classification": 0.899706295315043
+                    }
+                },
+                "17": {
+                    "en_de": {
+                        "regression": 0.46121099411644834,
+                        "classification": 0.4606,
+                        "bi_classification": 0.9878419452887537
+                    },
+                    "en_zh": {
+                        "regression": 0.4523479634027412,
+                        "classification": 0.4156000000000001,
+                        "bi_classification": 0.9111200417392415
+                    },
+                    "ro_en": {
+                        "regression": 0.8675416388444452,
+                        "classification": 0.5382,
+                        "bi_classification": 0.9193507774823549
+                    },
+                    "et_en": {
+                        "regression": 0.7786778356330887,
+                        "classification": 0.3216,
+                        "bi_classification": 0.8057579997973212
+                    },
+                    "si_en": {
+                        "regression": 0.6415240099349886,
+                        "classification": 0.41459999999999997,
+                        "bi_classification": 0.7362699248533134
+                    },
+                    "ne_en": {
+                        "regression": 0.7667829781999576,
+                        "classification": 0.5562,
+                        "bi_classification": 0.6507216460642502
+                    },
+                    "ru_en": {
+                        "regression": 0.7860491363523583,
+                        "classification": 0.4768,
+                        "bi_classification": 0.9048312590738672
+                    }
+                },
+                "20": {
+                    "en_de": {
+                        "regression": 0.464994910780071,
+                        "classification": 0.476,
+                        "bi_classification": 0.9876367434530293
+                    },
+                    "en_zh": {
+                        "regression": 0.454043584135266,
+                        "classification": 0.4372,
+                        "bi_classification": 0.9105953448946955
+                    },
+                    "ro_en": {
+                        "regression": 0.87852195188122,
+                        "classification": 0.5484,
+                        "bi_classification": 0.9183800248449325
+                    },
+                    "et_en": {
+                        "regression": 0.7963796854804501,
+                        "classification": 0.3332,
+                        "bi_classification": 0.8140743326534781
+                    },
+                    "si_en": {
+                        "regression": 0.6594019167129919,
+                        "classification": 0.4311999999999999,
+                        "bi_classification": 0.7165716207674444
+                    },
+                    "ne_en": {
+                        "regression": 0.7790607750573408,
+                        "classification": 0.5616,
+                        "bi_classification": 0.6392021134028978
+                    },
+                    "ru_en": {
+                        "regression": 0.7971392115101126,
+                        "classification": 0.4918,
+                        "bi_classification": 0.9144029050112904
+                    }
+                },
+                "23": {
+                    "en_de": {
+                        "regression": 0.47867288707816275,
+                        "classification": 0.5080000000000001,
+                        "bi_classification": 0.9877393443708915
+                    },
+                    "en_zh": {
+                        "regression": 0.4786649664754841,
+                        "classification": 0.4304,
+                        "bi_classification": 0.9120002103804594
+                    },
+                    "ro_en": {
+                        "regression": 0.8818348158248674,
+                        "classification": 0.5482,
+                        "bi_classification": 0.9198301620900213
+                    },
+                    "et_en": {
+                        "regression": 0.8006298050541745,
+                        "classification": 0.332,
+                        "bi_classification": 0.8022500714239069
+                    },
+                    "si_en": {
+                        "regression": 0.6650425317680524,
+                        "classification": 0.44279999999999997,
+                        "bi_classification": 0.7259273311430043
+                    },
+                    "ne_en": {
+                        "regression": 0.7869007781331352,
+                        "classification": 0.5562,
+                        "bi_classification": 0.662012743913394
+                    },
+                    "ru_en": {
+                        "regression": 0.8061047416153736,
+                        "classification": 0.49559999999999993,
+                        "bi_classification": 0.915523165458006
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "en_de": {
+                        "classification": 0.4196
+                    },
+                    "en_zh": {
+                        "classification": 0.2664000000000001
+                    },
+                    "ro_en": {
+                        "classification": 0.28719999999999996
+                    },
+                    "et_en": {
+                        "classification": 0.1984
+                    },
+                    "si_en": {
+                        "classification": 0.2304
+                    },
+                    "ne_en": {
+                        "classification": 0.41319999999999996
+                    },
+                    "ru_en": {
+                        "classification": 0.38780000000000003
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "classification": 0.4748
+                    },
+                    "en_zh": {
+                        "classification": 0.27680000000000005
+                    },
+                    "ro_en": {
+                        "classification": 0.311
+                    },
+                    "et_en": {
+                        "classification": 0.21200000000000002
+                    },
+                    "si_en": {
+                        "classification": 0.16640000000000002
+                    },
+                    "ne_en": {
+                        "classification": 0.39459999999999995
+                    },
+                    "ru_en": {
+                        "classification": 0.4448
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "classification": 0.4838
+                    },
+                    "en_zh": {
+                        "classification": 0.3058
+                    },
+                    "ro_en": {
+                        "classification": 0.3902
+                    },
+                    "et_en": {
+                        "classification": 0.23120000000000002
+                    },
+                    "si_en": {
+                        "classification": 0.257
+                    },
+                    "ne_en": {
+                        "classification": 0.49640000000000006
+                    },
+                    "ru_en": {
+                        "classification": 0.45280000000000004
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "classification": 0.503
+                    },
+                    "en_zh": {
+                        "classification": 0.32239999999999996
+                    },
+                    "ro_en": {
+                        "classification": 0.4586
+                    },
+                    "et_en": {
+                        "classification": 0.26180000000000003
+                    },
+                    "si_en": {
+                        "classification": 0.2688
+                    },
+                    "ne_en": {
+                        "classification": 0.5476
+                    },
+                    "ru_en": {
+                        "classification": 0.42000000000000004
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "classification": 0.5086
+                    },
+                    "en_zh": {
+                        "classification": 0.3396
+                    },
+                    "ro_en": {
+                        "classification": 0.4666
+                    },
+                    "et_en": {
+                        "classification": 0.2928
+                    },
+                    "si_en": {
+                        "classification": 0.271
+                    },
+                    "ne_en": {
+                        "classification": 0.555
+                    },
+                    "ru_en": {
+                        "classification": 0.475
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "en_de": {
+                        "classification": 0.4812
+                    },
+                    "en_zh": {
+                        "classification": 0.3094
+                    },
+                    "ro_en": {
+                        "classification": 0.353
+                    },
+                    "et_en": {
+                        "classification": 0.2104
+                    },
+                    "si_en": {
+                        "classification": 0.1698
+                    },
+                    "ne_en": {
+                        "classification": 0.44480000000000003
+                    },
+                    "ru_en": {
+                        "classification": 0.4708
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "classification": 0.48440000000000005
+                    },
+                    "en_zh": {
+                        "classification": 0.3732
+                    },
+                    "ro_en": {
+                        "classification": 0.40259999999999996
+                    },
+                    "et_en": {
+                        "classification": 0.2534
+                    },
+                    "si_en": {
+                        "classification": 0.24419999999999997
+                    },
+                    "ne_en": {
+                        "classification": 0.49660000000000004
+                    },
+                    "ru_en": {
+                        "classification": 0.48040000000000005
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "classification": 0.479
+                    },
+                    "en_zh": {
+                        "classification": 0.3192
+                    },
+                    "ro_en": {
+                        "classification": 0.40099999999999997
+                    },
+                    "et_en": {
+                        "classification": 0.2532
+                    },
+                    "si_en": {
+                        "classification": 0.2272
+                    },
+                    "ne_en": {
+                        "classification": 0.5084000000000001
+                    },
+                    "ru_en": {
+                        "classification": 0.4984
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "classification": 0.493
+                    },
+                    "en_zh": {
+                        "classification": 0.34240000000000004
+                    },
+                    "ro_en": {
+                        "classification": 0.41979999999999995
+                    },
+                    "et_en": {
+                        "classification": 0.2512
+                    },
+                    "si_en": {
+                        "classification": 0.253
+                    },
+                    "ne_en": {
+                        "classification": 0.5246000000000001
+                    },
+                    "ru_en": {
+                        "classification": 0.5029999999999999
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "classification": 0.5066
+                    },
+                    "en_zh": {
+                        "classification": 0.32059999999999994
+                    },
+                    "ro_en": {
+                        "classification": 0.46040000000000003
+                    },
+                    "et_en": {
+                        "classification": 0.25880000000000003
+                    },
+                    "si_en": {
+                        "classification": 0.24880000000000005
+                    },
+                    "ne_en": {
+                        "classification": 0.564
+                    },
+                    "ru_en": {
+                        "classification": 0.5246000000000001
+                    }
+                },
+                "14": {
+                    "en_de": {
+                        "classification": 0.5016
+                    },
+                    "en_zh": {
+                        "classification": 0.37479999999999997
+                    },
+                    "ro_en": {
+                        "classification": 0.5090000000000001
+                    },
+                    "et_en": {
+                        "classification": 0.2988
+                    },
+                    "si_en": {
+                        "classification": 0.2654
+                    },
+                    "ne_en": {
+                        "classification": 0.5346
+                    },
+                    "ru_en": {
+                        "classification": 0.5058
+                    }
+                },
+                "17": {
+                    "en_de": {
+                        "classification": 0.5256000000000001
+                    },
+                    "en_zh": {
+                        "classification": 0.3424
+                    },
+                    "ro_en": {
+                        "classification": 0.5090000000000001
+                    },
+                    "et_en": {
+                        "classification": 0.31
+                    },
+                    "si_en": {
+                        "classification": 0.264
+                    },
+                    "ne_en": {
+                        "classification": 0.5476000000000001
+                    },
+                    "ru_en": {
+                        "classification": 0.5006
+                    }
+                },
+                "20": {
+                    "en_de": {
+                        "classification": 0.5229999999999999
+                    },
+                    "en_zh": {
+                        "classification": 0.3928
+                    },
+                    "ro_en": {
+                        "classification": 0.5326000000000001
+                    },
+                    "et_en": {
+                        "classification": 0.3106
+                    },
+                    "si_en": {
+                        "classification": 0.3102
+                    },
+                    "ne_en": {
+                        "classification": 0.5673999999999999
+                    },
+                    "ru_en": {
+                        "classification": 0.5247999999999999
+                    }
+                },
+                "23": {
+                    "en_de": {
+                        "classification": 0.5394000000000001
+                    },
+                    "en_zh": {
+                        "classification": 0.40279999999999994
+                    },
+                    "ro_en": {
+                        "classification": 0.5492000000000001
+                    },
+                    "et_en": {
+                        "classification": 0.3392
+                    },
+                    "si_en": {
+                        "classification": 0.3062
+                    },
+                    "ne_en": {
+                        "classification": 0.582
+                    },
+                    "ru_en": {
+                        "classification": 0.5292000000000001
+                    }
+                }
+            }
+        }
+    },
+    "en_de": {
+        "regression": {
+            "base": {
+                "0": {
+                    "en_de": {
+                        "regression": 0.18665747027932209,
+                        "classification": 0.36219999999999997,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "regression": 0.1492413702353627,
+                        "classification": 0.354,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "regression": 0.32321260328153517,
+                        "classification": 0.4805999999999999,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "regression": 0.3801835661284637,
+                        "classification": 0.5066,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "regression": 0.45915457978733665,
+                        "classification": 0.48040000000000005,
+                        "bi_classification": 0.9873417721518987
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "en_de": {
+                        "regression": 0.29013915316419536,
+                        "classification": 0.40120000000000006,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "regression": 0.2833543363181176,
+                        "classification": 0.44980000000000003,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "regression": 0.3661418997066491,
+                        "classification": 0.44719999999999993,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "regression": 0.36829242329760137,
+                        "classification": 0.457,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "regression": 0.4641612109817762,
+                        "classification": 0.48360000000000003,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "14": {
+                    "en_de": {
+                        "regression": 0.48112163013546755,
+                        "classification": 0.49800000000000005,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "17": {
+                    "en_de": {
+                        "regression": 0.5040431477738032,
+                        "classification": 0.4675999999999999,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "20": {
+                    "en_de": {
+                        "regression": 0.5223998415065187,
+                        "classification": 0.5128,
+                        "bi_classification": 0.9873417721518987
+                    }
+                },
+                "23": {
+                    "en_de": {
+                        "regression": 0.49227610664520577,
+                        "classification": 0.4208,
+                        "bi_classification": 0.9873417721518987
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "en_de": {
+                        "classification": 0.48019999999999996
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "classification": 0.47400000000000003
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "classification": 0.4879999999999999
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "classification": 0.5044000000000001
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "classification": 0.5105999999999999
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "en_de": {
+                        "classification": 0.48019999999999996
+                    }
+                },
+                "2": {
+                    "en_de": {
+                        "classification": 0.47759999999999997
+                    }
+                },
+                "5": {
+                    "en_de": {
+                        "classification": 0.4951999999999999
+                    }
+                },
+                "8": {
+                    "en_de": {
+                        "classification": 0.49339999999999995
+                    }
+                },
+                "11": {
+                    "en_de": {
+                        "classification": 0.515
+                    }
+                },
+                "14": {
+                    "en_de": {
+                        "classification": 0.5182
+                    }
+                },
+                "17": {
+                    "en_de": {
+                        "classification": 0.5064
+                    }
+                },
+                "20": {
+                    "en_de": {
+                        "classification": 0.5074
+                    }
+                },
+                "23": {
+                    "en_de": {
+                        "classification": 0.5226
+                    }
+                }
+            }
+        }
+    },
+    "en_zh": {
+        "regression": {
+            "base": {
+                "0": {
+                    "en_zh": {
+                        "regression": 0.28686529384958337,
+                        "classification": 0.42679999999999996,
+                        "bi_classification": 0.9104005306138994
+                    }
+                },
+                "2": {
+                    "en_zh": {
+                        "regression": 0.3220975806238526,
+                        "classification": 0.4506,
+                        "bi_classification": 0.9096870784525803
+                    }
+                },
+                "5": {
+                    "en_zh": {
+                        "regression": 0.32618082135858256,
+                        "classification": 0.2984,
+                        "bi_classification": 0.9106595450787826
+                    }
+                },
+                "8": {
+                    "en_zh": {
+                        "regression": 0.4024923460978333,
+                        "classification": 0.346,
+                        "bi_classification": 0.9126032800347748
+                    }
+                },
+                "11": {
+                    "en_zh": {
+                        "regression": 0.43812637379173236,
+                        "classification": 0.363,
+                        "bi_classification": 0.9118513131893108
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "en_zh": {
+                        "regression": 0.2715324857106852,
+                        "classification": 0.41899999999999993,
+                        "bi_classification": 0.9122538187788276
+                    }
+                },
+                "2": {
+                    "en_zh": {
+                        "regression": 0.3243463529419277,
+                        "classification": 0.43200000000000005,
+                        "bi_classification": 0.9124182963898987
+                    }
+                },
+                "5": {
+                    "en_zh": {
+                        "regression": 0.33903501942602154,
+                        "classification": 0.38780000000000003,
+                        "bi_classification": 0.913690748227841
+                    }
+                },
+                "8": {
+                    "en_zh": {
+                        "regression": 0.35089469412666785,
+                        "classification": 0.3524,
+                        "bi_classification": 0.9140342400662386
+                    }
+                },
+                "11": {
+                    "en_zh": {
+                        "regression": 0.4312216003412431,
+                        "classification": 0.3452,
+                        "bi_classification": 0.9127115132838431
+                    }
+                },
+                "14": {
+                    "en_zh": {
+                        "regression": 0.479405805447439,
+                        "classification": 0.375,
+                        "bi_classification": 0.9116423472501417
+                    }
+                },
+                "17": {
+                    "en_zh": {
+                        "regression": 0.4990688716626542,
+                        "classification": 0.37479999999999997,
+                        "bi_classification": 0.9146691294117615
+                    }
+                },
+                "20": {
+                    "en_zh": {
+                        "regression": 0.5057507329117226,
+                        "classification": 0.387,
+                        "bi_classification": 0.91494910777103
+                    }
+                },
+                "23": {
+                    "en_zh": {
+                        "regression": 0.5175240220976598,
+                        "classification": 0.44420000000000004,
+                        "bi_classification": 0.9158910296559165
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "en_zh": {
+                        "classification": 0.282
+                    }
+                },
+                "2": {
+                    "en_zh": {
+                        "classification": 0.2834
+                    }
+                },
+                "5": {
+                    "en_zh": {
+                        "classification": 0.30879999999999996
+                    }
+                },
+                "8": {
+                    "en_zh": {
+                        "classification": 0.4082
+                    }
+                },
+                "11": {
+                    "en_zh": {
+                        "classification": 0.3902
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "en_zh": {
+                        "classification": 0.282
+                    }
+                },
+                "2": {
+                    "en_zh": {
+                        "classification": 0.4328
+                    }
+                },
+                "5": {
+                    "en_zh": {
+                        "classification": 0.40199999999999997
+                    }
+                },
+                "8": {
+                    "en_zh": {
+                        "classification": 0.43479999999999996
+                    }
+                },
+                "11": {
+                    "en_zh": {
+                        "classification": 0.43479999999999996
+                    }
+                },
+                "14": {
+                    "en_zh": {
+                        "classification": 0.4112
+                    }
+                },
+                "17": {
+                    "en_zh": {
+                        "classification": 0.4354
+                    }
+                },
+                "20": {
+                    "en_zh": {
+                        "classification": 0.48460000000000003
+                    }
+                },
+                "23": {
+                    "en_zh": {
+                        "classification": 0.4244
+                    }
+                }
+            }
+        }
+    },
+    "ro_en": {
+        "regression": {
+            "base": {
+                "0": {
+                    "ro_en": {
+                        "regression": 0.6469383826307867,
+                        "classification": 0.34240000000000004,
+                        "bi_classification": 0.8838277524956928
+                    }
+                },
+                "2": {
+                    "ro_en": {
+                        "regression": 0.6962526282943056,
+                        "classification": 0.386,
+                        "bi_classification": 0.8819990173334084
+                    }
+                },
+                "5": {
+                    "ro_en": {
+                        "regression": 0.7374972982034124,
+                        "classification": 0.4408,
+                        "bi_classification": 0.8921233959573186
+                    }
+                },
+                "8": {
+                    "ro_en": {
+                        "regression": 0.8093055580048911,
+                        "classification": 0.49659999999999993,
+                        "bi_classification": 0.9017061998365309
+                    }
+                },
+                "11": {
+                    "ro_en": {
+                        "regression": 0.8373836963250962,
+                        "classification": 0.5108,
+                        "bi_classification": 0.9070001001857824
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "ro_en": {
+                        "regression": 0.6154540753435281,
+                        "classification": 0.3478,
+                        "bi_classification": 0.8770920965414245
+                    }
+                },
+                "2": {
+                    "ro_en": {
+                        "regression": 0.6822434334855189,
+                        "classification": 0.385,
+                        "bi_classification": 0.8907479410748433
+                    }
+                },
+                "5": {
+                    "ro_en": {
+                        "regression": 0.709891955363668,
+                        "classification": 0.40940000000000004,
+                        "bi_classification": 0.8962716566916956
+                    }
+                },
+                "8": {
+                    "ro_en": {
+                        "regression": 0.7209664771895029,
+                        "classification": 0.41600000000000004,
+                        "bi_classification": 0.8970814871674986
+                    }
+                },
+                "11": {
+                    "ro_en": {
+                        "regression": 0.8469146472023901,
+                        "classification": 0.5024,
+                        "bi_classification": 0.9128291319791332
+                    }
+                },
+                "14": {
+                    "ro_en": {
+                        "regression": 0.8526794082650871,
+                        "classification": 0.5236,
+                        "bi_classification": 0.9156633633415436
+                    }
+                },
+                "17": {
+                    "ro_en": {
+                        "regression": 0.8680719388364233,
+                        "classification": 0.5456000000000001,
+                        "bi_classification": 0.920038781491385
+                    }
+                },
+                "20": {
+                    "ro_en": {
+                        "regression": 0.8821651521412388,
+                        "classification": 0.5582,
+                        "bi_classification": 0.9194494893276686
+                    }
+                },
+                "23": {
+                    "ro_en": {
+                        "regression": 0.876852146940775,
+                        "classification": 0.5514000000000001,
+                        "bi_classification": 0.9165824779780127
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "ro_en": {
+                        "classification": 0.3134
+                    }
+                },
+                "2": {
+                    "ro_en": {
+                        "classification": 0.4010000000000001
+                    }
+                },
+                "5": {
+                    "ro_en": {
+                        "classification": 0.40680000000000005
+                    }
+                },
+                "8": {
+                    "ro_en": {
+                        "classification": 0.49420000000000003
+                    }
+                },
+                "11": {
+                    "ro_en": {
+                        "classification": 0.5115999999999999
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "ro_en": {
+                        "classification": 0.3516
+                    }
+                },
+                "2": {
+                    "ro_en": {
+                        "classification": 0.4295999999999999
+                    }
+                },
+                "5": {
+                    "ro_en": {
+                        "classification": 0.42960000000000004
+                    }
+                },
+                "8": {
+                    "ro_en": {
+                        "classification": 0.4476
+                    }
+                },
+                "11": {
+                    "ro_en": {
+                        "classification": 0.484
+                    }
+                },
+                "14": {
+                    "ro_en": {
+                        "classification": 0.5168
+                    }
+                },
+                "17": {
+                    "ro_en": {
+                        "classification": 0.5244000000000002
+                    }
+                },
+                "20": {
+                    "ro_en": {
+                        "classification": 0.5402
+                    }
+                },
+                "23": {
+                    "ro_en": {
+                        "classification": 0.5472
+                    }
+                }
+            }
+        }
+    },
+    "et_en": {
+        "regression": {
+            "base": {
+                "0": {
+                    "et_en": {
+                        "regression": 0.4818274981537072,
+                        "classification": 0.2432,
+                        "bi_classification": 0.7336602198336764
+                    }
+                },
+                "2": {
+                    "et_en": {
+                        "regression": 0.5075622849084832,
+                        "classification": 0.25599999999999995,
+                        "bi_classification": 0.7503112114177523
+                    }
+                },
+                "5": {
+                    "et_en": {
+                        "regression": 0.576580139871685,
+                        "classification": 0.26180000000000003,
+                        "bi_classification": 0.7648899605276517
+                    }
+                },
+                "8": {
+                    "et_en": {
+                        "regression": 0.6380509069993812,
+                        "classification": 0.27379999999999993,
+                        "bi_classification": 0.7686331453203721
+                    }
+                },
+                "11": {
+                    "et_en": {
+                        "regression": 0.6735219428134784,
+                        "classification": 0.2866,
+                        "bi_classification": 0.7695183207358096
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "et_en": {
+                        "regression": 0.4683920037981536,
+                        "classification": 0.2512,
+                        "bi_classification": 0.741837270270196
+                    }
+                },
+                "2": {
+                    "et_en": {
+                        "regression": 0.5419177725644417,
+                        "classification": 0.26660000000000006,
+                        "bi_classification": 0.7570272974203893
+                    }
+                },
+                "5": {
+                    "et_en": {
+                        "regression": 0.5562991440118872,
+                        "classification": 0.24299999999999997,
+                        "bi_classification": 0.7494656189296887
+                    }
+                },
+                "8": {
+                    "et_en": {
+                        "regression": 0.6151618490498487,
+                        "classification": 0.2612,
+                        "bi_classification": 0.7567485623593865
+                    }
+                },
+                "11": {
+                    "et_en": {
+                        "regression": 0.6885128827237984,
+                        "classification": 0.2818,
+                        "bi_classification": 0.7686557900390086
+                    }
+                },
+                "14": {
+                    "et_en": {
+                        "regression": 0.7196828925142406,
+                        "classification": 0.2838,
+                        "bi_classification": 0.7678738134681821
+                    }
+                },
+                "17": {
+                    "et_en": {
+                        "regression": 0.7640505005307624,
+                        "classification": 0.299,
+                        "bi_classification": 0.7830605611794412
+                    }
+                },
+                "20": {
+                    "et_en": {
+                        "regression": 0.7746441299543936,
+                        "classification": 0.334,
+                        "bi_classification": 0.8042977940271271
+                    }
+                },
+                "23": {
+                    "et_en": {
+                        "regression": 0.7785601205309689,
+                        "classification": 0.3132,
+                        "bi_classification": 0.8012068877159804
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "et_en": {
+                        "classification": 0.2124
+                    }
+                },
+                "2": {
+                    "et_en": {
+                        "classification": 0.2748
+                    }
+                },
+                "5": {
+                    "et_en": {
+                        "classification": 0.31320000000000003
+                    }
+                },
+                "8": {
+                    "et_en": {
+                        "classification": 0.31279999999999997
+                    }
+                },
+                "11": {
+                    "et_en": {
+                        "classification": 0.3176
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "et_en": {
+                        "classification": 0.2446
+                    }
+                },
+                "2": {
+                    "et_en": {
+                        "classification": 0.3056
+                    }
+                },
+                "5": {
+                    "et_en": {
+                        "classification": 0.3008
+                    }
+                },
+                "8": {
+                    "et_en": {
+                        "classification": 0.2988
+                    }
+                },
+                "11": {
+                    "et_en": {
+                        "classification": 0.31079999999999997
+                    }
+                },
+                "14": {
+                    "et_en": {
+                        "classification": 0.3296
+                    }
+                },
+                "17": {
+                    "et_en": {
+                        "classification": 0.3244
+                    }
+                },
+                "20": {
+                    "et_en": {
+                        "classification": 0.354
+                    }
+                },
+                "23": {
+                    "et_en": {
+                        "classification": 0.3734
+                    }
+                }
+            }
+        }
+    },
+    "si_en": {
+        "regression": {
+            "base": {
+                "0": {
+                    "si_en": {
+                        "regression": 0.4253915405275852,
+                        "classification": 0.36239999999999994,
+                        "bi_classification": 0.6320669079468242
+                    }
+                },
+                "2": {
+                    "si_en": {
+                        "regression": 0.43903393618547215,
+                        "classification": 0.357,
+                        "bi_classification": 0.653226707499037
+                    }
+                },
+                "5": {
+                    "si_en": {
+                        "regression": 0.5092485222070225,
+                        "classification": 0.34700000000000003,
+                        "bi_classification": 0.7299092194882525
+                    }
+                },
+                "8": {
+                    "si_en": {
+                        "regression": 0.5627737734499918,
+                        "classification": 0.3424,
+                        "bi_classification": 0.7337055974506097
+                    }
+                },
+                "11": {
+                    "si_en": {
+                        "regression": 0.5969564150738625,
+                        "classification": 0.3614,
+                        "bi_classification": 0.7228536810509487
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "si_en": {
+                        "regression": 0.4379933651031567,
+                        "classification": 0.3585999999999999,
+                        "bi_classification": 0.6638449371907752
+                    }
+                },
+                "2": {
+                    "si_en": {
+                        "regression": 0.48105747743136107,
+                        "classification": 0.3644,
+                        "bi_classification": 0.7129926449231745
+                    }
+                },
+                "5": {
+                    "si_en": {
+                        "regression": 0.4768901892364991,
+                        "classification": 0.383,
+                        "bi_classification": 0.7028332118365233
+                    }
+                },
+                "8": {
+                    "si_en": {
+                        "regression": 0.5016200592127693,
+                        "classification": 0.37700000000000006,
+                        "bi_classification": 0.7177819633531446
+                    }
+                },
+                "11": {
+                    "si_en": {
+                        "regression": 0.5738881716129743,
+                        "classification": 0.3318,
+                        "bi_classification": 0.7140510598016727
+                    }
+                },
+                "14": {
+                    "si_en": {
+                        "regression": 0.6024266178996365,
+                        "classification": 0.36039999999999994,
+                        "bi_classification": 0.7377480265928444
+                    }
+                },
+                "17": {
+                    "si_en": {
+                        "regression": 0.6101469670206215,
+                        "classification": 0.3694,
+                        "bi_classification": 0.7354922640399224
+                    }
+                },
+                "20": {
+                    "si_en": {
+                        "regression": 0.6324369665831113,
+                        "classification": 0.4,
+                        "bi_classification": 0.7274840302936659
+                    }
+                },
+                "23": {
+                    "si_en": {
+                        "regression": 0.6464275942210367,
+                        "classification": 0.41859999999999997,
+                        "bi_classification": 0.7042090830721628
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "si_en": {
+                        "classification": 0.30179999999999996
+                    }
+                },
+                "2": {
+                    "si_en": {
+                        "classification": 0.284
+                    }
+                },
+                "5": {
+                    "si_en": {
+                        "classification": 0.2718
+                    }
+                },
+                "8": {
+                    "si_en": {
+                        "classification": 0.3024
+                    }
+                },
+                "11": {
+                    "si_en": {
+                        "classification": 0.2714
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "si_en": {
+                        "classification": 0.2448
+                    }
+                },
+                "2": {
+                    "si_en": {
+                        "classification": 0.30060000000000003
+                    }
+                },
+                "5": {
+                    "si_en": {
+                        "classification": 0.32500000000000007
+                    }
+                },
+                "8": {
+                    "si_en": {
+                        "classification": 0.3416
+                    }
+                },
+                "11": {
+                    "si_en": {
+                        "classification": 0.32239999999999996
+                    }
+                },
+                "14": {
+                    "si_en": {
+                        "classification": 0.34199999999999997
+                    }
+                },
+                "17": {
+                    "si_en": {
+                        "classification": 0.31120000000000003
+                    }
+                },
+                "20": {
+                    "si_en": {
+                        "classification": 0.3218
+                    }
+                },
+                "23": {
+                    "si_en": {
+                        "classification": 0.3176
+                    }
+                }
+            }
+        }
+    },
+    "ne_en": {
+        "regression": {
+            "base": {
+                "0": {
+                    "ne_en": {
+                        "regression": 0.5167820634127548,
+                        "classification": 0.4888,
+                        "bi_classification": 0.3838718590050698
+                    }
+                },
+                "2": {
+                    "ne_en": {
+                        "regression": 0.5543012406691916,
+                        "classification": 0.49000000000000005,
+                        "bi_classification": 0.4788464390962165
+                    }
+                },
+                "5": {
+                    "ne_en": {
+                        "regression": 0.5953653174109441,
+                        "classification": 0.44939999999999997,
+                        "bi_classification": 0.5214748015488925
+                    }
+                },
+                "8": {
+                    "ne_en": {
+                        "regression": 0.6876980007383063,
+                        "classification": 0.40700000000000003,
+                        "bi_classification": 0.5323381563616881
+                    }
+                },
+                "11": {
+                    "ne_en": {
+                        "regression": 0.7023332931604751,
+                        "classification": 0.46579999999999994,
+                        "bi_classification": 0.5703199411859039
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "ne_en": {
+                        "regression": 0.5224454735037256,
+                        "classification": 0.491,
+                        "bi_classification": 0.414208216110011
+                    }
+                },
+                "2": {
+                    "ne_en": {
+                        "regression": 0.5380569787726508,
+                        "classification": 0.44820000000000004,
+                        "bi_classification": 0.4504368879334679
+                    }
+                },
+                "5": {
+                    "ne_en": {
+                        "regression": 0.5725834986013766,
+                        "classification": 0.44320000000000004,
+                        "bi_classification": 0.5147437122476377
+                    }
+                },
+                "8": {
+                    "ne_en": {
+                        "regression": 0.5907323083592552,
+                        "classification": 0.42800000000000005,
+                        "bi_classification": 0.5213720725383334
+                    }
+                },
+                "11": {
+                    "ne_en": {
+                        "regression": 0.7210921517682379,
+                        "classification": 0.4382,
+                        "bi_classification": 0.5772063773621269
+                    }
+                },
+                "14": {
+                    "ne_en": {
+                        "regression": 0.7346049982179765,
+                        "classification": 0.48900000000000005,
+                        "bi_classification": 0.6201462471347428
+                    }
+                },
+                "17": {
+                    "ne_en": {
+                        "regression": 0.7491844796939604,
+                        "classification": 0.4504,
+                        "bi_classification": 0.5947168611853391
+                    }
+                },
+                "20": {
+                    "ne_en": {
+                        "regression": 0.772338701484234,
+                        "classification": 0.49720000000000003,
+                        "bi_classification": 0.6356932867401314
+                    }
+                },
+                "23": {
+                    "ne_en": {
+                        "regression": 0.7724429789908586,
+                        "classification": 0.453,
+                        "bi_classification": 0.6181233017603539
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "ne_en": {
+                        "classification": 0.42539999999999994
+                    }
+                },
+                "2": {
+                    "ne_en": {
+                        "classification": 0.4368
+                    }
+                },
+                "5": {
+                    "ne_en": {
+                        "classification": 0.4736000000000001
+                    }
+                },
+                "8": {
+                    "ne_en": {
+                        "classification": 0.49399999999999994
+                    }
+                },
+                "11": {
+                    "ne_en": {
+                        "classification": 0.45299999999999996
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "ne_en": {
+                        "classification": 0.42560000000000003
+                    }
+                },
+                "2": {
+                    "ne_en": {
+                        "classification": 0.48439999999999994
+                    }
+                },
+                "5": {
+                    "ne_en": {
+                        "classification": 0.5014000000000001
+                    }
+                },
+                "8": {
+                    "ne_en": {
+                        "classification": 0.45780000000000004
+                    }
+                },
+                "11": {
+                    "ne_en": {
+                        "classification": 0.496
+                    }
+                },
+                "14": {
+                    "ne_en": {
+                        "classification": 0.4894
+                    }
+                },
+                "17": {
+                    "ne_en": {
+                        "classification": 0.4772
+                    }
+                },
+                "20": {
+                    "ne_en": {
+                        "classification": 0.48580000000000007
+                    }
+                },
+                "23": {
+                    "ne_en": {
+                        "classification": 0.52
+                    }
+                }
+            }
+        }
+    },
+    "ru_en": {
+        "regression": {
+            "base": {
+                "0": {
+                    "ru_en": {
+                        "regression": 0.6351220590065101,
+                        "classification": 0.4452,
+                        "bi_classification": 0.8886012585445175
+                    }
+                },
+                "2": {
+                    "ru_en": {
+                        "regression": 0.6353382231055139,
+                        "classification": 0.4646,
+                        "bi_classification": 0.8760746049158505
+                    }
+                },
+                "5": {
+                    "ru_en": {
+                        "regression": 0.6584788970937482,
+                        "classification": 0.4715999999999999,
+                        "bi_classification": 0.884296490488061
+                    }
+                },
+                "8": {
+                    "ru_en": {
+                        "regression": 0.6918583651540677,
+                        "classification": 0.45780000000000004,
+                        "bi_classification": 0.8932978380465653
+                    }
+                },
+                "11": {
+                    "ru_en": {
+                        "regression": 0.729123228838595,
+                        "classification": 0.477,
+                        "bi_classification": 0.9016994298154222
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "ru_en": {
+                        "regression": 0.6232420339853926,
+                        "classification": 0.42960000000000004,
+                        "bi_classification": 0.8817613879055092
+                    }
+                },
+                "2": {
+                    "ru_en": {
+                        "regression": 0.6513457841063941,
+                        "classification": 0.45780000000000004,
+                        "bi_classification": 0.888877449004154
+                    }
+                },
+                "5": {
+                    "ru_en": {
+                        "regression": 0.6686343306174989,
+                        "classification": 0.44560000000000005,
+                        "bi_classification": 0.888606987056041
+                    }
+                },
+                "8": {
+                    "ru_en": {
+                        "regression": 0.6769690247916096,
+                        "classification": 0.442,
+                        "bi_classification": 0.887767465514591
+                    }
+                },
+                "11": {
+                    "ru_en": {
+                        "regression": 0.7093182414156384,
+                        "classification": 0.4673999999999999,
+                        "bi_classification": 0.8968161080852468
+                    }
+                },
+                "14": {
+                    "ru_en": {
+                        "regression": 0.7354691236437001,
+                        "classification": 0.49659999999999993,
+                        "bi_classification": 0.9031315555081318
+                    }
+                },
+                "17": {
+                    "ru_en": {
+                        "regression": 0.7730824654072388,
+                        "classification": 0.48,
+                        "bi_classification": 0.9057724644763528
+                    }
+                },
+                "20": {
+                    "ru_en": {
+                        "regression": 0.7847495131102978,
+                        "classification": 0.4992,
+                        "bi_classification": 0.9094645341575548
+                    }
+                },
+                "23": {
+                    "ru_en": {
+                        "regression": 0.805205575440801,
+                        "classification": 0.5342,
+                        "bi_classification": 0.9204847197274484
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "ru_en": {
+                        "classification": 0.47239999999999993
+                    }
+                },
+                "2": {
+                    "ru_en": {
+                        "classification": 0.4856
+                    }
+                },
+                "5": {
+                    "ru_en": {
+                        "classification": 0.48679999999999995
+                    }
+                },
+                "8": {
+                    "ru_en": {
+                        "classification": 0.4997999999999999
+                    }
+                },
+                "11": {
+                    "ru_en": {
+                        "classification": 0.49640000000000006
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "ru_en": {
+                        "classification": 0.466
+                    }
+                },
+                "2": {
+                    "ru_en": {
+                        "classification": 0.46980000000000005
+                    }
+                },
+                "5": {
+                    "ru_en": {
+                        "classification": 0.47240000000000004
+                    }
+                },
+                "8": {
+                    "ru_en": {
+                        "classification": 0.46659999999999996
+                    }
+                },
+                "11": {
+                    "ru_en": {
+                        "classification": 0.485
+                    }
+                },
+                "14": {
+                    "ru_en": {
+                        "classification": 0.48760000000000003
+                    }
+                },
+                "17": {
+                    "ru_en": {
+                        "classification": 0.4902
+                    }
+                },
+                "20": {
+                    "ru_en": {
+                        "classification": 0.5194
+                    }
+                },
+                "23": {
+                    "ru_en": {
+                        "classification": 0.5204000000000001
+                    }
+                }
+            }
+        }
+    },
+    "blog": {
+        "regression": {
+            "base": {
+                "0": {
+                    "blog": {
+                        "regression": 0.48308306166516035,
+                        "classification": 0.5012813481577505,
+                        "bi_classification": 0.6005155766100637
+                    }
+                },
+                "2": {
+                    "blog": {
+                        "regression": 0.5499501833446624,
+                        "classification": 0.5145236077180038,
+                        "bi_classification": 0.5595402365954428
+                    }
+                },
+                "5": {
+                    "blog": {
+                        "regression": 0.5550270469689365,
+                        "classification": 0.5372787555466919,
+                        "bi_classification": 0.5780851225088242
+                    }
+                },
+                "8": {
+                    "blog": {
+                        "regression": 0.5870964519914799,
+                        "classification": 0.5603978660816672,
+                        "bi_classification": 0.5983588679008602
+                    }
+                },
+                "11": {
+                    "blog": {
+                        "regression": 0.5930954707213617,
+                        "classification": 0.5664256867926409,
+                        "bi_classification": 0.6110989351790528
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "blog": {
+                        "regression": 0.42401641248209093,
+                        "classification": 0.47036944707583384,
+                        "bi_classification": 0.598319441206323
+                    }
+                },
+                "2": {
+                    "blog": {
+                        "regression": 0.5584645254124891,
+                        "classification": 0.5157301690182979,
+                        "bi_classification": 0.5745151013626858
+                    }
+                },
+                "5": {
+                    "blog": {
+                        "regression": 0.5566998164543634,
+                        "classification": 0.5187465722690332,
+                        "bi_classification": 0.5785959374765022
+                    }
+                },
+                "8": {
+                    "blog": {
+                        "regression": 0.5605518043958229,
+                        "classification": 0.5399810539961111,
+                        "bi_classification": 0.6052063605423657
+                    }
+                },
+                "11": {
+                    "blog": {
+                        "regression": 0.570570829677707,
+                        "classification": 0.5225208156753254,
+                        "bi_classification": 0.5804277614692424
+                    }
+                },
+                "14": {
+                    "blog": {
+                        "regression": 0.5960167288645327,
+                        "classification": 0.5657376477040434,
+                        "bi_classification": 0.6076118788651506
+                    }
+                },
+                "17": {
+                    "blog": {
+                        "regression": 0.6088083923174693,
+                        "classification": 0.5798923069252631,
+                        "bi_classification": 0.6083401486312406
+                    }
+                },
+                "20": {
+                    "blog": {
+                        "regression": 0.6081799158195101,
+                        "classification": 0.5494640275215635,
+                        "bi_classification": 0.5948318688579032
+                    }
+                },
+                "23": {
+                    "blog": {
+                        "regression": 0.5862188581099935,
+                        "classification": 0.5508500772797527,
+                        "bi_classification": 0.5978133815354797
+                    }
+                }
+            }
+        },
+        "classification": {
+            "base": {
+                "0": {
+                    "blog": {
+                        "classification": 0.4263449169865883
+                    }
+                },
+                "2": {
+                    "blog": {
+                        "classification": 0.4783566834521613
+                    }
+                },
+                "5": {
+                    "blog": {
+                        "classification": 0.5246347908460887
+                    }
+                },
+                "8": {
+                    "blog": {
+                        "classification": 0.542907713017899
+                    }
+                },
+                "11": {
+                    "blog": {
+                        "classification": 0.5668744079373784
+                    }
+                }
+            },
+            "large": {
+                "0": {
+                    "blog": {
+                        "classification": 0.42127935384155163
+                    }
+                },
+                "2": {
+                    "blog": {
+                        "classification": 0.4942862840903425
+                    }
+                },
+                "5": {
+                    "blog": {
+                        "classification": 0.5499925213142545
+                    }
+                },
+                "8": {
+                    "blog": {
+                        "classification": 0.48434461783915833
+                    }
+                },
+                "11": {
+                    "blog": {
+                        "classification": 0.5970783267687092
+                    }
+                },
+                "14": {
+                    "blog": {
+                        "classification": 0.635668345216134
+                    }
+                },
+                "17": {
+                    "blog": {
+                        "classification": 0.617714513636137
+                    }
+                },
+                "20": {
+                    "blog": {
+                        "classification": 0.5906217280749863
+                    }
+                },
+                "23": {
+                    "blog": {
+                        "classification": 0.638475345265992
+                    }
+                }
+            }
+        }
+    }
+}
